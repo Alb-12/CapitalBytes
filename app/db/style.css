@@ -1,0 +1,269 @@
+:root {
+    --primary: #2c3e50;
+    --secondary: #34495e;
+    --success: #27ae60;
+    --danger: #e74c3c;
+    --warning: #f1c40f;
+    --light: #f4f7f6;
+    --dark: #2c3e50;
+    --white: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light);
+    margin: 0;
+    padding:0 ;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+    color: var(--dark);
+}
+
+
+
+/* Contenedor Principal */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo de Tarjetas (Cards) */
+.card, fieldset {
+    background: var(--white);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--primary);
+    padding: 0 10px;
+}
+
+/* Formularios */
+input, select, textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Importante para el ancho */
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+/* Tablas Profesionales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: var(--secondary);
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Etiquetas de Estado */
+.status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.status-activo { background: #d4edda; color: #155724; }
+.status-vencido { background: #f8d7da; color: #721c24; }
+.status-cancelado { background: #e2e3e5; color: #383d41; }
+
+/* Grid para Reportes */
+.grid-reportes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/*Para la ventana flotante*/
+.modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:50%;
+    height:50%;
+    background:rgba(185, 169, 169, 0.5);
+}
+
+.modal-conten{
+    background:white;
+    width:70%;
+    margin:10% auto;
+    padding:20px;
+    border-radius:10px;
+    align-items: center;
+}
+.cerrar{
+    float:right;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: red;
+}
+form{
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0,0,0 ,0.2);
+}
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form input, select, textarea{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+/* Solo aplica efectos de hover si el dispositivo tiene un puntero (PC) */
+@media (hover: hover) {
+    button:hover {
+        background-color: var(--secondary);
+        filter: brightness(1.2);
+        transform: translateY(-1px);
+    }
+    
+    tr:hover {
+        background-color: #f9f9f9;
+    }
+}
+
+/* Efecto visual al tocar en móviles (Active) */
+button:active {
+    background-color: var(--success);
+    transform: scale(0.98);
+}
+
+    /*CSS para mostrar tarjeta de los clientes*/
+    .contenedor-clientes{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin: 20px;
+}
+
+.cliente-card{
+    width:200px;
+    padding:15px;
+    margin: 20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    cursor:pointer;
+    background:white;
+}
+
+.cliente-card:hover{
+    background:#f5f5f5;
+}
+
+
+/* Adaptación para Móviles */
+@media (max-width: 768px) {
+    /* Cambiamos el layout de Flex a Vertical */
+    body > div {
+        flex-direction: column !important;
+    }
+
+    /* La barra lateral ahora es superior */
+    nav {
+        width: 100% !important;
+        padding: 10px !important;
+        box-sizing: border-box;
+    }
+
+    nav h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        overflow-x: auto; /* Permite deslizar el menú lateralmente */
+        white-space: nowrap;
+        gap: 15px;
+        padding-bottom: 5px;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    /* Ajuste de tablas para móvil (Scroll horizontal) */
+    .container {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto; /* Evita que la tabla rompa el diseño */
+        white-space: nowrap;
+    }
+
+    /* Formularios en una sola columna */
+    .grid-reportes {
+        grid-template-columns: 1fr;
+    }
+
+    /* Botones más grandes para facilitar el toque (Touch target) */
+    button, .btn {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+
+    /* Entradas de texto más fáciles de tocar */
+    input, select, textarea {
+        font-size: 16px; /* Evita el zoom automático en iOS */
+        padding: 12px;
+    }
+
+}
