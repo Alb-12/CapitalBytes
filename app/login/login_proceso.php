@@ -23,10 +23,14 @@ if ($esJson) {
     $datos = $_POST;
 }
 
+<<<<<<< HEAD
+
+=======
 /**
  * Responde según el modo: JSON si vino por AJAX, o guarda el mensaje en
  * sesión + redirige si fue un envío de formulario normal (sin JS).
  */
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function responderLogin(bool $esJson, bool $exito, string $mensaje): never
 {
     if ($esJson) {

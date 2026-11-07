@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+=======
 // pagos.js — lógica del módulo de Pagos.
 // Autocontenido: no depende de common.js (que solo se carga en clientes),
 // así que trae sus propias copias de los helpers de validación.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 // ─── Helpers propios de este módulo ───────────────────────────────────
 function marcarCampoInvalido(id, mensaje) {
@@ -52,8 +55,12 @@ async function apiRequest(url, options = {}) {
     try {
         data = await res.json();
     } catch {
+<<<<<<< HEAD
+            }
+=======
         // La respuesta no era JSON (ej. error 500 crudo de PHP)
     }
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     if (!res.ok) {
         const error = new Error(data?.message ?? data?.mensaje ?? `Error del servidor (${res.status})`);
         error.campo = data?.campo ?? null;
@@ -62,7 +69,10 @@ async function apiRequest(url, options = {}) {
     return data;
 }
 
+<<<<<<< HEAD
+=======
 // Atajo para obtener/mostrar los modales de Bootstrap por id
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function modalBootstrap(id) {
     return bootstrap.Modal.getOrCreateInstance(document.getElementById(id));
 }

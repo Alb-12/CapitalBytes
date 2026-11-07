@@ -1,0 +1,175 @@
+"filename", "language", "PHP", "JavaScript", "PostCSS", "MS SQL", "Markdown", "XML", "HTML", "JSON", "comment", "blank", "total"
+"c:\xampp\htdocs\SistemaPrestamo\app\caja\caja.js", "JavaScript", 0, 211, 0, 0, 0, 0, 0, 0, 6, 26, 243
+"c:\xampp\htdocs\SistemaPrestamo\app\caja\caja.php", "PHP", 233, 0, 0, 0, 0, 0, 0, 0, 3, 24, 260
+"c:\xampp\htdocs\SistemaPrestamo\app\caja\caja_arqueo.php", "PHP", 53, 0, 0, 0, 0, 0, 0, 0, 1, 15, 69
+"c:\xampp\htdocs\SistemaPrestamo\app\caja\caja_registro_automatico.php", "PHP", 18, 0, 0, 0, 0, 0, 0, 0, 7, 5, 30
+"c:\xampp\htdocs\SistemaPrestamo\app\caja\caja_save.php", "PHP", 58, 0, 0, 0, 0, 0, 0, 0, 1, 16, 75
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\actualizar.php", "PHP", 94, 0, 0, 0, 0, 0, 0, 0, 0, 25, 119
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\cargar_cliente.php", "PHP", 12, 0, 0, 0, 0, 0, 0, 0, 0, 7, 19
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes.js", "JavaScript", 0, 148, 0, 0, 0, 0, 0, 0, 13, 25, 186
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes.php", "PHP", 140, 0, 0, 0, 0, 0, 0, 0, 2, 20, 162
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes_delete.php", "PHP", 57, 0, 0, 0, 0, 0, 0, 0, 3, 16, 76
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes_save.php", "PHP", 103, 0, 0, 0, 0, 0, 0, 0, 4, 24, 131
+"c:\xampp\htdocs\SistemaPrestamo\app\clientes\editar.php", "PHP", 57, 0, 0, 0, 0, 0, 0, 0, 1, 24, 82
+"c:\xampp\htdocs\SistemaPrestamo\app\common.js", "JavaScript", 0, 57, 0, 0, 0, 0, 0, 0, 1, 16, 74
+"c:\xampp\htdocs\SistemaPrestamo\app\configuracion\configuracion.php", "PHP", 39, 0, 0, 0, 0, 0, 0, 0, 0, 5, 44
+"c:\xampp\htdocs\SistemaPrestamo\app\dashboard.php", "PHP", 140, 0, 0, 0, 0, 0, 0, 0, 3, 28, 171
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.css", "PostCSS", 0, 0, 3886, 0, 0, 0, 0, 0, 6, 193, 4085
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.min.css", "PostCSS", 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.rtl.css", "PostCSS", 0, 0, 3886, 0, 0, 0, 0, 0, 6, 192, 4084
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.rtl.min.css", "PostCSS", 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.css", "PostCSS", 0, 0, 522, 0, 0, 0, 0, 0, 14, 65, 601
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.min.css", "PostCSS", 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.rtl.css", "PostCSS", 0, 0, 528, 0, 0, 0, 0, 0, 6, 64, 598
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.rtl.min.css", "PostCSS", 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.css", "PostCSS", 0, 0, 4895, 0, 0, 0, 0, 0, 8, 503, 5406
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.min.css", "PostCSS", 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.rtl.css", "PostCSS", 0, 0, 4891, 0, 0, 0, 0, 0, 6, 500, 5397
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.rtl.min.css", "PostCSS", 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.css", "PostCSS", 0, 0, 11125, 0, 0, 0, 0, 0, 24, 899, 12048
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.min.css", "PostCSS", 0, 0, 5, 0, 0, 0, 0, 0, 1, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.rtl.css", "PostCSS", 0, 0, 11127, 0, 0, 0, 0, 0, 6, 888, 12021
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.rtl.min.css", "PostCSS", 0, 0, 5, 0, 0, 0, 0, 0, 1, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.bundle.js", "JavaScript", 0, 5062, 0, 0, 0, 0, 0, 0, 655, 596, 6313
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.bundle.min.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 6, 0, 7
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.esm.js", "JavaScript", 0, 3568, 0, 0, 0, 0, 0, 0, 578, 302, 4448
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.esm.min.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 6, 0, 7
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.js", "JavaScript", 0, 3604, 0, 0, 0, 0, 0, 0, 584, 307, 4495
+"c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.min.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 6, 0, 7
+"c:\xampp\htdocs\SistemaPrestamo\app\db\db.php", "PHP", 26, 0, 0, 0, 0, 0, 0, 0, 0, 7, 33
+"c:\xampp\htdocs\SistemaPrestamo\app\db\mora_automatica.php", "PHP", 47, 0, 0, 0, 0, 0, 0, 0, 4, 14, 65
+"c:\xampp\htdocs\SistemaPrestamo\app\db\style.css", "PostCSS", 0, 0, 215, 0, 0, 0, 0, 0, 17, 37, 269
+"c:\xampp\htdocs\SistemaPrestamo\app\db\validacion.css", "PostCSS", 0, 0, 24, 0, 0, 0, 0, 0, 1, 5, 30
+"c:\xampp\htdocs\SistemaPrestamo\app\install.php", "PHP", 417, 0, 0, 0, 0, 0, 0, 0, 34, 61, 512
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\AUTHORS.md", "Markdown", 0, 0, 0, 0, 17, 0, 0, 0, 0, 8, 25
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\README.md", "Markdown", 0, 0, 0, 0, 174, 0, 0, 0, 0, 66, 240
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\composer.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 49, 0, 1, 50
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\Cpdf.php", "PHP", 4261, 0, 0, 0, 0, 0, 0, 0, 1667, 996, 6924
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts\installed-fonts.dist.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 80
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts\mustRead.html", "HTML", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 17
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res\broken_image.svg", "XML", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 8
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res\html.css", "PostCSS", 0, 0, 395, 0, 0, 0, 0, 0, 35, 97, 527
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\phpunit.xml", "XML", 0, 0, 0, 0, 0, 20, 0, 0, 0, 1, 21
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\CPDF.php", "PHP", 612, 0, 0, 0, 0, 0, 0, 0, 242, 152, 1006
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\GD.php", "PHP", 645, 0, 0, 0, 0, 0, 0, 0, 231, 186, 1062
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\PDFLib.php", "PHP", 966, 0, 0, 0, 0, 0, 0, 0, 348, 244, 1558
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Canvas.php", "PHP", 47, 0, 0, 0, 0, 0, 0, 0, 397, 44, 488
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\CanvasFactory.php", "PHP", 37, 0, 0, 0, 0, 0, 0, 0, 24, 8, 69
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Cellmap.php", "PHP", 596, 0, 0, 0, 0, 0, 0, 0, 258, 156, 1010
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\AttributeTranslator.php", "PHP", 448, 0, 0, 0, 0, 0, 0, 0, 145, 88, 681
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Color.php", "PHP", 272, 0, 0, 0, 0, 0, 0, 0, 32, 36, 340
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Attr.php", "PHP", 19, 0, 0, 0, 0, 0, 0, 0, 3, 5, 27
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\CloseQuote.php", "PHP", 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\ContentPart.php", "PHP", 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Counter.php", "PHP", 22, 0, 0, 0, 0, 0, 0, 0, 6, 6, 34
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Counters.php", "PHP", 25, 0, 0, 0, 0, 0, 0, 0, 9, 7, 41
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\NoCloseQuote.php", "PHP", 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\NoOpenQuote.php", "PHP", 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\OpenQuote.php", "PHP", 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\StringPart.php", "PHP", 19, 0, 0, 0, 0, 0, 0, 0, 3, 5, 27
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Url.php", "PHP", 19, 0, 0, 0, 0, 0, 0, 0, 3, 5, 27
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Style.php", "PHP", 2804, 0, 0, 0, 0, 0, 0, 0, 1247, 581, 4632
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Stylesheet.php", "PHP", 1156, 0, 0, 0, 0, 0, 0, 0, 486, 254, 1896
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Dompdf.php", "PHP", 743, 0, 0, 0, 0, 0, 0, 0, 614, 191, 1548
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception.php", "PHP", 9, 0, 0, 0, 0, 0, 0, 0, 16, 3, 28
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception\ImageException.php", "PHP", 10, 0, 0, 0, 0, 0, 0, 0, 16, 5, 31
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FontMetrics.php", "PHP", 385, 0, 0, 0, 0, 0, 0, 0, 230, 96, 711
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame.php", "PHP", 697, 0, 0, 0, 0, 0, 0, 0, 358, 187, 1242
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\AbstractFrameDecorator.php", "PHP", 546, 0, 0, 0, 0, 0, 0, 0, 232, 148, 926
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Block.php", "PHP", 136, 0, 0, 0, 0, 0, 0, 0, 84, 37, 257
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Image.php", "PHP", 56, 0, 0, 0, 0, 0, 0, 0, 48, 17, 121
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Inline.php", "PHP", 67, 0, 0, 0, 0, 0, 0, 0, 36, 19, 122
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\ListBullet.php", "PHP", 50, 0, 0, 0, 0, 0, 0, 0, 48, 20, 118
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\ListBulletImage.php", "PHP", 56, 0, 0, 0, 0, 0, 0, 0, 40, 16, 112
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\NullFrameDecorator.php", "PHP", 16, 0, 0, 0, 0, 0, 0, 0, 15, 3, 34
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Page.php", "PHP", 407, 0, 0, 0, 0, 0, 0, 0, 237, 124, 768
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Table.php", "PHP", 194, 0, 0, 0, 0, 0, 0, 0, 91, 60, 345
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableCell.php", "PHP", 66, 0, 0, 0, 0, 0, 0, 0, 31, 15, 112
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableRow.php", "PHP", 11, 0, 0, 0, 0, 0, 0, 0, 15, 3, 29
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableRowGroup.php", "PHP", 37, 0, 0, 0, 0, 0, 0, 0, 27, 11, 75
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Text.php", "PHP", 140, 0, 0, 0, 0, 0, 0, 0, 102, 38, 280
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\AbstractFrameReflower.php", "PHP", 363, 0, 0, 0, 0, 0, 0, 0, 160, 85, 608
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Block.php", "PHP", 642, 0, 0, 0, 0, 0, 0, 0, 161, 146, 949
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Image.php", "PHP", 129, 0, 0, 0, 0, 0, 0, 0, 55, 30, 214
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Inline.php", "PHP", 114, 0, 0, 0, 0, 0, 0, 0, 48, 30, 192
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\ListBullet.php", "PHP", 26, 0, 0, 0, 0, 0, 0, 0, 18, 8, 52
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\NullFrameReflower.php", "PHP", 15, 0, 0, 0, 0, 0, 0, 0, 17, 6, 38
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Page.php", "PHP", 109, 0, 0, 0, 0, 0, 0, 0, 55, 35, 199
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Table.php", "PHP", 326, 0, 0, 0, 0, 0, 0, 0, 103, 95, 524
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableCell.php", "PHP", 102, 0, 0, 0, 0, 0, 0, 0, 31, 33, 166
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableRow.php", "PHP", 48, 0, 0, 0, 0, 0, 0, 0, 24, 15, 87
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableRowGroup.php", "PHP", 45, 0, 0, 0, 0, 0, 0, 0, 22, 15, 82
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Text.php", "PHP", 365, 0, 0, 0, 0, 0, 0, 0, 147, 90, 602
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\Factory.php", "PHP", 172, 0, 0, 0, 0, 0, 0, 0, 51, 40, 263
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameListIterator.php", "PHP", 49, 0, 0, 0, 0, 0, 0, 0, 39, 13, 101
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameTree.php", "PHP", 173, 0, 0, 0, 0, 0, 0, 0, 118, 34, 325
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameTreeIterator.php", "PHP", 43, 0, 0, 0, 0, 0, 0, 0, 34, 12, 89
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Helpers.php", "PHP", 832, 0, 0, 0, 0, 0, 0, 0, 286, 139, 1257
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Image\Cache.php", "PHP", 195, 0, 0, 0, 0, 0, 0, 0, 62, 36, 293
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\JavascriptEmbedder.php", "PHP", 21, 0, 0, 0, 0, 0, 0, 0, 24, 7, 52
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\LineBox.php", "PHP", 225, 0, 0, 0, 0, 0, 0, 0, 127, 74, 426
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Options.php", "PHP", 556, 0, 0, 0, 0, 0, 0, 0, 542, 134, 1232
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\PhpEvaluator.php", "PHP", 28, 0, 0, 0, 0, 0, 0, 0, 26, 9, 63
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Absolute.php", "PHP", 74, 0, 0, 0, 0, 0, 0, 0, 41, 14, 129
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\AbstractPositioner.php", "PHP", 21, 0, 0, 0, 0, 0, 0, 0, 21, 7, 49
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Block.php", "PHP", 23, 0, 0, 0, 0, 0, 0, 0, 10, 8, 41
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Fixed.php", "PHP", 66, 0, 0, 0, 0, 0, 0, 0, 16, 11, 93
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Inline.php", "PHP", 28, 0, 0, 0, 0, 0, 0, 0, 20, 9, 57
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\ListBullet.php", "PHP", 19, 0, 0, 0, 0, 0, 0, 0, 18, 6, 43
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\NullPositioner.php", "PHP", 10, 0, 0, 0, 0, 0, 0, 0, 13, 4, 27
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\TableCell.php", "PHP", 17, 0, 0, 0, 0, 0, 0, 0, 13, 4, 34
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\TableRow.php", "PHP", 17, 0, 0, 0, 0, 0, 0, 0, 13, 5, 35
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer.php", "PHP", 193, 0, 0, 0, 0, 0, 0, 0, 56, 59, 308
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\AbstractRenderer.php", "PHP", 818, 0, 0, 0, 0, 0, 0, 0, 302, 179, 1299
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Block.php", "PHP", 47, 0, 0, 0, 0, 0, 0, 0, 20, 15, 82
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Image.php", "PHP", 48, 0, 0, 0, 0, 0, 0, 0, 14, 12, 74
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Inline.php", "PHP", 78, 0, 0, 0, 0, 0, 0, 0, 21, 23, 122
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\ListBullet.php", "PHP", 150, 0, 0, 0, 0, 0, 0, 0, 29, 35, 214
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableCell.php", "PHP", 127, 0, 0, 0, 0, 0, 0, 0, 28, 35, 190
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableRow.php", "PHP", 16, 0, 0, 0, 0, 0, 0, 0, 17, 8, 41
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableRowGroup.php", "PHP", 16, 0, 0, 0, 0, 0, 0, 0, 17, 8, 41
+"c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Text.php", "PHP", 94, 0, 0, 0, 0, 0, 0, 0, 33, 35, 162
+"c:\xampp\htdocs\SistemaPrestamo\app\login\login.js", "JavaScript", 0, 55, 0, 0, 0, 0, 0, 0, 0, 13, 68
+"c:\xampp\htdocs\SistemaPrestamo\app\login\login.php", "PHP", 35, 0, 0, 0, 0, 0, 0, 0, 1, 4, 40
+"c:\xampp\htdocs\SistemaPrestamo\app\login\login_proceso.php", "PHP", 89, 0, 0, 0, 0, 0, 0, 0, 16, 22, 127
+"c:\xampp\htdocs\SistemaPrestamo\app\login\logout.php", "PHP", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6
+"c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo.js", "JavaScript", 0, 222, 0, 0, 0, 0, 0, 0, 11, 41, 274
+"c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo.php", "PHP", 143, 0, 0, 0, 0, 0, 0, 0, 3, 32, 178
+"c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo_actualizar.php", "PHP", 53, 0, 0, 0, 0, 0, 0, 0, 0, 17, 70
+"c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo_eliminar.php", "PHP", 44, 0, 0, 0, 0, 0, 0, 0, 0, 14, 58
+"c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo_save.php", "PHP", 99, 0, 0, 0, 0, 0, 0, 0, 2, 25, 126
+"c:\xampp\htdocs\SistemaPrestamo\app\redito\redito.js", "JavaScript", 0, 169, 0, 0, 0, 0, 0, 0, 6, 34, 209
+"c:\xampp\htdocs\SistemaPrestamo\app\redito\redito.php", "PHP", 202, 0, 0, 0, 0, 0, 0, 0, 0, 26, 228
+"c:\xampp\htdocs\SistemaPrestamo\app\redito\redito_cancelar.php", "PHP", 36, 0, 0, 0, 0, 0, 0, 0, 0, 12, 48
+"c:\xampp\htdocs\SistemaPrestamo\app\redito\redito_pago.php", "PHP", 73, 0, 0, 0, 0, 0, 0, 0, 0, 19, 92
+"c:\xampp\htdocs\SistemaPrestamo\app\redito\redito_save.php", "PHP", 78, 0, 0, 0, 0, 0, 0, 0, 0, 18, 96
+"c:\xampp\htdocs\SistemaPrestamo\app\reportes\reporte_datos.php", "PHP", 268, 0, 0, 0, 0, 0, 0, 0, 6, 37, 311
+"c:\xampp\htdocs\SistemaPrestamo\app\reportes\reporte_generar.php", "PHP", 33, 0, 0, 0, 0, 0, 0, 0, 0, 12, 45
+"c:\xampp\htdocs\SistemaPrestamo\app\reportes\reportes.js", "JavaScript", 0, 122, 0, 0, 0, 0, 0, 0, 1, 24, 147
+"c:\xampp\htdocs\SistemaPrestamo\app\reportes\reportes.php", "PHP", 236, 0, 0, 0, 0, 0, 0, 0, 0, 22, 258
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\backups\respaldo_2026-07-23_203940.sql", "MS SQL", 0, 0, 0, 308, 0, 0, 0, 0, 30, 41, 379
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\backups\respaldo_2026-07-25_182303.sql", "MS SQL", 0, 0, 0, 354, 0, 0, 0, 0, 34, 45, 433
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\cifrado_helper.php", "PHP", 23, 0, 0, 0, 0, 0, 0, 0, 0, 9, 32
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\config_save.php", "PHP", 97, 0, 0, 0, 0, 0, 0, 0, 4, 23, 124
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_callback.php", "PHP", 67, 0, 0, 0, 0, 0, 0, 0, 3, 15, 85
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_conectar.php", "PHP", 21, 0, 0, 0, 0, 0, 0, 0, 0, 6, 27
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_config.php", "PHP", 13, 0, 0, 0, 0, 0, 0, 0, 34, 5, 52
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_desconectar.php", "PHP", 26, 0, 0, 0, 0, 0, 0, 0, 0, 8, 34
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\helper.php", "PHP", 177, 0, 0, 0, 0, 0, 0, 0, 19, 40, 236
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_callback.php", "PHP", 69, 0, 0, 0, 0, 0, 0, 0, 3, 16, 88
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_conectar.php", "PHP", 21, 0, 0, 0, 0, 0, 0, 0, 0, 7, 28
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_config.php", "PHP", 13, 0, 0, 0, 0, 0, 0, 0, 22, 6, 41
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_desconectar.php", "PHP", 26, 0, 0, 0, 0, 0, 0, 0, 0, 9, 35
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo.js", "JavaScript", 0, 121, 0, 0, 0, 0, 0, 0, 10, 16, 147
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo.php", "PHP", 252, 0, 0, 0, 0, 0, 0, 0, 0, 26, 278
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo_cron.php", "PHP", 51, 0, 0, 0, 0, 0, 0, 0, 13, 13, 77
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo_descargar.php", "PHP", 21, 0, 0, 0, 0, 0, 0, 0, 3, 8, 32
+"c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo_generar.php", "PHP", 33, 0, 0, 0, 0, 0, 0, 0, 4, 12, 49
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\administradores_helper.php", "PHP", 29, 0, 0, 0, 0, 0, 0, 0, 18, 7, 54
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_actualizar.php", "PHP", 116, 0, 0, 0, 0, 0, 0, 0, 9, 25, 150
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_desbloquear.php", "PHP", 43, 0, 0, 0, 0, 0, 0, 0, 1, 12, 56
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_eliminar.php", "PHP", 55, 0, 0, 0, 0, 0, 0, 0, 2, 15, 72
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_save.php", "PHP", 78, 0, 0, 0, 0, 0, 0, 0, 2, 18, 98
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuarios.js", "JavaScript", 0, 197, 0, 0, 0, 0, 0, 0, 11, 29, 237
+"c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuarios.php", "PHP", 157, 0, 0, 0, 0, 0, 0, 0, 0, 22, 179
+"Total", "-", 26336, 13539, 41510, 662, 191, 28, 17, 129, 12540, 11226, 106178

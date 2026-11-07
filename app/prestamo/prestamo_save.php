@@ -76,12 +76,19 @@ $moraPorcentaje = is_numeric($datos['mora_porcentaje'] ?? null) ? (float) $datos
 $fechaFin       = !empty($datos['fecha_fin']) ? (string) $datos['fecha_fin'] : null;
 $fechaRegistro  = date('Y-m-d H:i:s');
 
+<<<<<<< HEAD
+$saldoPendiente = round($cuotaMonto * $plazo, 2);
+
+try {
+      $checkCliente = $conn->prepare('SELECT 1 FROM clientes WHERE id_cliente = ?');
+=======
 // El saldo pendiente inicial = monto total a pagar (cuota * plazo)
 $saldoPendiente = round($cuotaMonto * $plazo, 2);
 
 try {
     // Verificar que el cliente exista antes de crear el préstamo
     $checkCliente = $conn->prepare('SELECT 1 FROM clientes WHERE id_cliente = ?');
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $checkCliente->bind_param('i', $idCliente);
     $checkCliente->execute();
     $existeCliente = $checkCliente->get_result()->num_rows > 0;

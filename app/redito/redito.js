@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+=======
 // redito.js — módulo de Préstamos a Rédito. Completamente autocontenido:
 // no depende de common.js ni de ningún otro módulo. Si borras la carpeta
 // redito/ entera, ningún otro módulo del sistema se rompe.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 // ─── Helpers propios ────────────────────────────────────────────────────
 function marcarCampoInvalido(id, mensaje) {
@@ -53,8 +56,11 @@ function modalBootstrap(id) {
     return bootstrap.Modal.getOrCreateInstance(document.getElementById(id));
 }
 
+<<<<<<< HEAD
+=======
 // La misma fórmula que usa el backend, para la vista previa en vivo del
 // modal — el backend SIEMPRE recalcula esto también, esto es solo UX.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function calcularCuotaRedito(saldo, tasa) {
     return Math.round((saldo / 1000) * tasa * 100) / 100;
 }

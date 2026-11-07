@@ -7,22 +7,29 @@ $user = 'root';
 $pass = 'Albeiro12@#';
 $db   = 'db';
 
+<<<<<<< HEAD
+=======
 // mysqli_report ya está configurado como excepciones en cada endpoint, pero
 // la conexión inicial ocurre ANTES de esa línea en cada archivo, así que
 // aquí sí hace falta un manejo explícito: antes, si la conexión fallaba,
 // el script solo hacía `echo` del error y seguía ejecutándose con un $conn
 // roto, lo que provocaba errores en cascada mucho más confusos más abajo
 // (ej. "Call to a member function prepare() on null/bool").
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $conn = @new mysqli($host, $user, $pass, $db);
 
 if ($conn->connect_error) {
     error_log('Error de conexión a la base de datos: ' . $conn->connect_error);
     http_response_code(500);
 
+<<<<<<< HEAD
+     $headers = headers_list();
+=======
     // Detecta si el archivo que incluyó este ya envió Content-Type: application/json,
     // para responder consistente con el resto de los endpoints. Si no, muestra un
     // mensaje genérico sin filtrar detalles técnicos al usuario final.
     $headers = headers_list();
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $esJson  = false;
     foreach ($headers as $h) {
         if (stripos($h, 'application/json') !== false) {

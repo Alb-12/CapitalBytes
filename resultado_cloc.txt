@@ -1,0 +1,784 @@
+github.com/AlDanial/cloc v 2.10  T=13.71 s (54.9 files/s, 26862.3 lines/s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+File                                                                                                                   blank        comment           code
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+.\php\readme-redist-bins.txt                                                                                            2728              0          11334
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap.rtl.css                                                                      888              6          11127
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap.css                                                                          899             24          11125
+.\php\extras\sbom\php.cdx.json                                                                                             0              0           7994
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_hash.h                                                   18              8           7923
+.\mariadb\mariadb-12.3.2-winx64\share\mariadb_sys_schema.sql                                                            1413           4767           7692
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type.h                                                  486            868           6727
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item.h                                                      815           1968           6028
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_class.h                                                1009           2599           5110
+.\app\db\bootstrap-5.3.8-dist\js\bootstrap.bundle.js                                                                     595            655           5062
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.css                                                                503              8           4895
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.rtl.css                                                            500              6           4891
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\field.h                                                     403            926           4826
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\Cpdf.php                                                   995           1667           4261
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_func.h                                                 416            404           3923
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.css                                                                     193              6           3886
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.rtl.css                                                                 192              6           3886
+.\php\extras\sbom\php.spdx.json                                                                                            0              0           3705
+.\app\db\bootstrap-5.3.8-dist\js\bootstrap.js                                                                            306            584           3604
+.\app\db\bootstrap-5.3.8-dist\js\bootstrap.esm.js                                                                        301            578           3568
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_lex.h                                                   689           1686           3225
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_cmpfunc.h                                              351            727           3011
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\handler.h                                                   768           2473           2915
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Style.php                                              580           1247           2804
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\log_event.h                                                 886           2664           2676
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_strfunc.h                                              277            129           2341
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\table.h                                                     502           1262           2090
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_timefunc.h                                             239            116           2058
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_fixedbin.h                                         129            150           1761
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_select.h                                                380            932           1453
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_sum.h                                                  270            521           1447
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_uctype.h                                                  67             16           1401
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysqld_error.h                                                        9              5           1393
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysqld_ername.h                                                       1              1           1381
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\m_ctype.h                                                           327            401           1346
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_instr.h                                                  454            366           1317
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_geofunc.h                                              177             47           1305
+.\mariadb\mariadb-12.3.2-winx64\share\fill_help_tables.sql                                                                 9             19           1234
+.\php\news.txt                                                                                                           204              0           1204
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\psi.h                                                     324           1622           1100
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_file.h                                              118            239           1097
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\log.h                                                       180            350           1053
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_token.h                                                   1             10           1048
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_range.h                                                 316            713           1042
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_windowfunc.h                                           235            147           1040
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Stylesheet.php                                         253            615           1027
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_subselect.h                                            191            505           1020
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_string.h                                                 95            170           1017
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_sys.h                                                            173            221           1012
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\PDFLib.php                                         243            348            966
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_jsonfunc.h                                             154             28            951
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\structs.h                                                   120            197            863
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mysql.h                                                                     74             33            836
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Helpers.php                                                138            286            832
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\AbstractRenderer.php                              178            302            818
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_socket.h                                            184            365            804
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\json_schema.h                                                85             25            804
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mysqld.h                                                     75            102            803
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_global.h                                                         163            228            796
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\simple_parser.h                                              98            306            789
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_hints_parser.h                                          134            188            785
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex.h                                                        17             26            763
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\Index.xml                                                                  43              5            757
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Dompdf.php                                                 190            614            743
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_error.h                                                 248            397            719
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ha_partition.h                                              184            802            715
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_thread.h                                            110            364            698
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame.php                                                  186            358            697
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_list.h                                                   87            117            680
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_head.h                                                   157            420            646
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\GD.php                                             185            231            645
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Block.php                                    145            161            642
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql.h                                                              97            185            637
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\CPDF.php                                           151            242            612
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Cellmap.php                                                155            258            596
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_charset.h                                                71            199            586
+.\mariadb\mariadb-12.3.2-winx64\bin\myrocks_hotbackup                                                                     92             23            584
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_json_writer.h                                            102            117            582
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp.h                                                         66             77            576
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Options.php                                                133            542            556
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\AbstractFrameDecorator.php                  147            232            546
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\spatial.h                                                    90             69            544
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_explain.h                                               248            319            542
+.\php\extras\sbom\php.openvex.json                                                                                         0              0            542
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_pthread.h                                                        114            154            538
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.rtl.css                                                                64              6            528
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.css                                                                    65             14            522
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb_rpl.h                                                               83             72            500
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\privilege.h                                                 138            166            486
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_base.h                                                   94            144            474
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql_com.h                                                         103            198            466
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mdl.h                                                       158            535            466
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_ident.h                                                 107            134            463
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_join_cache.h                                            260            732            463
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\gcalc_slicescan.h                                            77             73            459
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_master_info_file.h                                       35            224            459
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\AttributeTranslator.php                                 87            145            448
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_gtid.h                                                  156            347            430
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_rli.h                                                   150            579            428
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_geom.h                                              34             24            427
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin.h                                                      158            239            421
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\partition_info.h                                             62            125            420
+.\app\install.php                                                                                                         61             34            417
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_statistics.h                                            102            119            412
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Page.php                                    123            237            407
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_cache.h                                                  74            115            406
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_base.h                                                    83            225            403
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_composite.h                                         17             43            401
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_hints.h                                                 205            430            398
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res\html.css                                                96             35            395
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FontMetrics.php                                             95            230            385
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_audit.h                                                  59             34            380
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_decimal.h                                                102             71            377
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb_com.h                                                               60             56            375
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_pcontext.h                                               164            311            374
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Text.php                                      89            147            365
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\AbstractFrameReflower.php                     84            160            363
+.\app\respaldo\backups\respaldo_2026-07-25_182303.sql                                                                     44             34            354
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\myisam.h                                                     52             45            348
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\bloom_filters.h                                              53             35            345
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_sort.h                                                  133            255            344
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\set_var.h                                                    71            100            341
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Table.php                                     94            103            326
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\semisync_master.h                                           123            318            313
+.\app\respaldo\backups\respaldo_2026-07-23_203940.sql                                                                     40             30            308
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_analyse.h                                                44             13            302
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\session_tracker.h                                            88            119            292
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_alter.h                                                  95            173            287
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_analyze_stmt.h                                           95            111            280
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Color.php                                               35             32            272
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_int.h                                               41             58            272
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_cte.h                                                   115            169            270
+.\app\reportes\reporte_datos.php                                                                                          37              6            268
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_trigger.h                                                74            113            267
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\gcalc_tools.h                                                40             55            266
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_parallel.h                                               47            220            260
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_acl.h                                                    42             91            256
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\sql_state.h                                                           1              1            254
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_i_s.h                                                    75             26            253
+.\app\respaldo\respaldo.php                                                                                               26              0            252
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\protocol.h                                                   39             42            251
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\semisync_master_ack_receiver.h                               62             56            251
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_bitmap.h                                                 36             37            249
+.\.VSCodeCounter\2026-09-05_11-11-53\results.txt                                                                           3              0            244
+.\.VSCodeCounter\2026-09-05_11-11-53\diff.txt                                                                              3              0            239
+.\.VSCodeCounter\2026-09-05_11-37-48\diff.txt                                                                              3              0            239
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\log_cache.h                                                  63            141            238
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_subselect.h                                              60            133            238
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_basic_types.h                                            46             65            238
+.\app\reportes\reportes.php                                                                                               22              0            236
+.\app\caja\caja.php                                                                                                       24              3            233
+.\app\pagos\pagos.js                                                                                                      36             17            233
+.\mariadb\mariadb-12.3.2-winx64\share\mariadb_system_tables.sql                                                           75             40            227
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_profile.h                                                73             43            226
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\LineBox.php                                                 73            127            225
+.\app\prestamo\prestamo.js                                                                                                41             11            222
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\latin1.xml                                                                 31              0            222
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ddl_log.h                                                    44             88            220
+.\app\db\style.css                                                                                                        37             17            215
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_lifo_buffer.h                                            46             98            215
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\charset_collations.h                                         15             20            212
+.\app\caja\caja.js                                                                                                        26              6            211
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\config.h                                                     56            283            211
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\t_ctype.h                                                    17             28            210
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\violite.h                                                    38             40            209
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_byteorder.h                                                       45             47            208
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_mi.h                                                     67            201            207
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\multi_range_read.h                                          140            322            205
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_array.h                                                  61             54            205
+.\app\redito\redito.php                                                                                                   26              0            202
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb_stmt.h                                                              33             28            202
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\m_string.h                                                           54             78            201
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\myisampack.h                                                 28             21            201
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp1257.xml                                                                 27              0            201
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\simple_tokenizer.h                                           25             60            199
+.\app\usuarios\usuarios.js                                                                                                29             11            197
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_sequence.h                                               31             67            197
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_cursor.h                                                  43             56            196
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Image\Cache.php                                             35             62            195
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\json_lib.h                                                          102            193            195
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Table.php                                    59             91            194
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ilist.h                                                      51             30            194
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer.php                                                58             56            193
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rowid_filter.h                                              109            200            191
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_priv.h                                                   52            147            191
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_partition.h                                              48            104            188
+.\.VSCodeCounter\2026-09-05_11-11-53\details.md                                                                            6              0            186
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_dbug.h                                                            23             36            186
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\heap.h                                                       34             53            185
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_bit.h                                                     37             70            185
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\gtid_index.h                                                 75            263            183
+.\.VSCodeCounter\2026-09-05_11-11-53\diff-details.md                                                                       6              0            182
+.\.VSCodeCounter\2026-09-05_11-37-48\diff-details.md                                                                       6              0            181
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_time.h                                                    54             71            181
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\macce.xml                                                                  26              0            181
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\macroman.xml                                                               19              0            181
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb_dyncol.h                                                            43             37            180
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp1251.xml                                                                 27              7            180
+.\.VSCodeCounter\2026-09-05_11-11-53\results.csv                                                                           0              0            179
+.\app\pagos\pagos.php                                                                                                     25              4            177
+.\app\respaldo\helper.php                                                                                                 39             19            177
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_statement.h                                          35             32            176
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_info_file.h                                              26            165            176
+.\.VSCodeCounter\2026-09-05_11-11-53\diff.csv                                                                              0              0            175
+.\.VSCodeCounter\2026-09-05_11-37-48\diff.csv                                                                              0              0            174
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\README.md                                                       65              0            174
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameTree.php                                         33            118            173
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_plist.h                                                  36             86            173
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_show.h                                                   39             63            173
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\Factory.php                                           39             51            172
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\ma_dyncol.h                                                          43             37            171
+.\app\redito\redito.js                                                                                                    33              6            169
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_rcontext.h                                                72            233            168
+.\mariadb\mariadb-12.3.2-winx64\bin\mysql_config.pl                                                                       40             80            164
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\hash_filo.h                                                  25             21            164
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\winservice.h                                                 27             22            163
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp1250.xml                                                                 21              0            162
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\latin2.xml                                                                 24              0            162
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_transaction.h                                        32             27            161
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_utility.h                                                54            141            161
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\latin7.xml                                                                 22              4            161
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_parse.h                                                  24             22            160
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\slave.h                                                      52            106            159
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_cmd.h                                                    68            170            159
+.\app\usuarios\usuarios.php                                                                                               22              0            157
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\filesort_utils.h                                             57            134            157
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_create.h                                                63            167            156
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\authors.h                                                    16             24            155
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mem_root_array.h                                             42             73            154
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\procedure.h                                                  20             25            154
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_rdtsc.h                                                   31            106            153
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\keycache.h                                                           25             36            151
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_udf.h                                                    15             13            151
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\ListBullet.php                                     34             29            150
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_table.h                                                  33             46            150
+.\app\clientes\clientes.js                                                                                                26              7            148
+.\app\usuarios\clientes\clientes.js                                                                                       25             13            148
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\filesort.h                                                   44             56            148
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_partition_admin.h                                        58             57            147
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_plugin.h                                                 30             32            145
+.\app\prestamo\prestamo.php                                                                                               32              3            143
+.\app\clientes\clientes.php                                                                                               21              1            141
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Text.php                                     37            102            140
+.\app\usuarios\clientes\clientes.php                                                                                      20              2            140
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_compare.h                                                 42            104            140
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_debug.h                                                  16             17            138
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_prepare.h                                                66            168            138
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\json_table.h                                                 57            100            137
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Block.php                                    36             84            136
+.\app\dashboard.php                                                                                                       28              8            135
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_window.h                                                 75             50            135
+.\php\php.ini.ini                                                                                                        320           1430            134
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_xmlfunc.h                                               21             17            131
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\char_buffer.h                                                16             30            130
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Image.php                                     29             55            129
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableCell.php                                      34             28            127
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\event_data_objects.h                                         58             22            127
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_const.h                                                  45            109            127
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_get_diagnostics.h                                        63            130            126
+.\php\snapshot.txt                                                                                                        27              0            126
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\probes_mysql_nodtrace.h                                       5              3            124
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mysql\client_plugin.h                                                       54             90            123
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_stage.h                                              31             51            123
+.\app\reportes\reportes.js                                                                                                24              1            122
+.\app\respaldo\respaldo.js                                                                                                16             10            121
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\span.h                                                       28             12            121
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_vector.h                                            14             12            121
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\thread_cache.h                                               28             61            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\armscii8.xml                                                               18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\ascii.xml                                                                  18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp1256.xml                                                                 20              1            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp850.xml                                                                  18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp852.xml                                                                  18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\cp866.xml                                                                  19              2            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\dec8.xml                                                                   19              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\geostd8.xml                                                                18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\greek.xml                                                                  20              3            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\hebrew.xml                                                                 19              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\hp8.xml                                                                    19              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\keybcs2.xml                                                                19              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\koi8r.xml                                                                  18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\koi8u.xml                                                                  19              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\latin5.xml                                                                 18              0            121
+.\mariadb\mariadb-12.3.2-winx64\share\charsets\swe7.xml                                                                   20              0            121
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\threadpool_generic.h                                         21             17            119
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\partition_element.h                                          21             36            118
+.\php\README.md                                                                                                           54              0            118
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\unireg.h                                                     37             73            117
+.\app\usuarios\usuario_actualizar.php                                                                                     25              9            116
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\ma_pvio.h                                                                   21              4            116
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\create_options.h                                             16             19            116
+.\app\clientes\clases\ClienteRepository.php                                                                               20              3            115
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_vers.h                                                  23             15            115
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Inline.php                                    29             48            114
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_time.h                                                   22             33            113
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\maria.h                                                      22             22            112
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\thr_lock.h                                                   25             60            112
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_injector.h                                               69            136            110
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Page.php                                      34             55            109
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lf.h                                                         36             39            109
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_bitmap.h                                                  19             18            109
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_json.h                                              29             27            109
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\threadpool.h                                                 33             25            108
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_string.h                                                 27             51            107
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\sql_common.h                                                         15             13            105
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ha_sequence.h                                                18             49            104
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_thread_provider.h                                        55             15            104
+.\app\usuarios\clientes\clientes_save.php                                                                                 24              4            103
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\hostname.h                                                   25             55            103
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableCell.php                                 32             31            102
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\replication.h                                               133            311            101
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\scope.h                                                      34             31            101
+.\app\pagos\whatsapp_enviar.php                                                                                           22              0            100
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_hset.h                                                   18             33            100
+.\app\prestamo\prestamo_save.php                                                                                          25              2             99
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\providers\bzlib.h                                            23              4             99
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_filter.h                                                 39             25             98
+.\app\respaldo\config_save.php                                                                                            23              4             97
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_audit.h                                                 32             59             97
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_insert.h                                                 21             24             97
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_rcontext_handler.h                                        28             57             96
+.\app\pagos\pagos_save.php                                                                                                17              2             95
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\errmsg.h                                                                    16             23             95
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\atomic\generic-msvc.h                                        24             21             95
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_vectorfunc.h                                            12             12             95
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Text.php                                           34             33             94
+.\app\usuarios\clientes\actualizar.php                                                                                    25              0             94
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\myisammrg.h                                                  18             17             94
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_encryption.h                                           25             28             93
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_trace_context.h                                          22             21             92
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_compiler.h                                                        33             74             91
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_row.h                                                   19             30             90
+.\app\login\login_proceso.php                                                                                             22             16             89
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_sha2.h                                                 25             16             89
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_cpu.h                                                     16             54             89
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_handler_errors.h                                           7             24             89
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_connect.h                                                19             15             89
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_stack_alloc.h                                             25             54             87
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\atomic\solaris.h                                             21             11             85
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\select_result.h                                              24             75             85
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\errmsg.h                                                             13             20             84
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_table.h                                              22             66             84
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\providers\lzma.h                                             16              4             82
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_getopt.h                                                          22             46             81
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\event_db_repository.h                                        25             25             81
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\myisamchk.h                                                  18             34             81
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_expression_cache.h                                       29             54             81
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts\installed-fonts.dist.json                              0              0             80
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_my_crypt.h                                             31             23             80
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_ident_cli.h                                              14             33             80
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_command.h                                                 9             24             80
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\event_scheduler.h                                            42             36             79
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\events.h                                                     38             47             79
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Inline.php                                         22             21             78
+.\app\redito\redito_save.php                                                                                              17              0             78
+.\app\usuarios\usuario_save.php                                                                                           18              2             78
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\event_parse_data.h                                           29             25             78
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\gstream.h                                                    15             14             78
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\optimizer_costs.h                                            25             59             78
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\parse_file.h                                                 25             20             77
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_locale.h                                                 12             21             76
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Absolute.php                                     13             41             74
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_mdl.h                                                25             44             74
+.\app\redito\redito_pago.php                                                                                              18              0             73
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_type_def.h                                                19             26             73
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ssl_compat.h                                                 19             17             73
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_dir.h                                                             23             21             72
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\client_plugin.h                                                38             79             72
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_ps.h                                                 15             21             72
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\decimal.h                                                            23             34             71
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\event_queue.h                                                37             27             71
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_fixedbin_storage.h                                  27             74             70
+.\app\respaldo\onedrive_callback.php                                                                                      15              3             69
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\handler_ername.h                                                      5             12             69
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_valgrind.h                                                         8             24             68
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_logger.h                                               26             33             68
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\cset_narrowing.h                                             30             45             68
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_composite.h                                             15             20             68
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mysys_err.h                                                  14             20             68
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Inline.php                                   18             36             67
+.\app\respaldo\google_callback.php                                                                                        15              3             67
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ft_global.h                                                  26             17             67
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\hash.h                                                       15             25             67
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_tree.h                                                    20             22             67
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_gtid_base.h                                              24             39             67
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_cursor.h                                                 24             39             67
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableCell.php                                14             31             66
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Fixed.php                                        10             16             66
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_sql.h                                                  20             37             66
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\grant.h                                                      12             21             66
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_statement_provider.h                                     37             15             66
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\uniques.h                                                    20             24             66
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_sp.h                                                 18             21             65
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_apc.h                                                     31             66             64
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_xml.h                                                             23             33             63
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_json.h                                                 24             32             63
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_stacktrace.h                                              19             27             63
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_row.h                                                9             20             63
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_alloc.h                                            28             56             62
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\table_cache.h                                                18             37             62
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_histogram_json.h                                         38             59             61
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_trace.h                                                  33            124             61
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_reporting.h                                              23             49             61
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_path.h                                                   22             39             61
+.\.VSCodeCounter\2026-09-05_11-11-53\results.md                                                                            7              0             60
+.\.VSCodeCounter\2026-09-05_11-37-48\diff.md                                                                               7              0             60
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_digest.h                                                 18             51             60
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\sslopt-vars.h                                                         8             15             60
+.\.VSCodeCounter\2026-09-05_11-11-53\diff.md                                                                               7              0             59
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\ma_tls.h                                                                    23             96             59
+.\app\caja\caja_save.php                                                                                                  16              1             58
+.\app\clientes\clases\Cliente.php                                                                                         13              3             58
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_attribute.h                                                       18             36             58
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_ftparser.h                                              42            122             58
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\semisync_slave.h                                             22             38             58
+.\app\common.js                                                                                                           16              1             57
+.\app\usuarios\clientes\clientes_delete.php                                                                               16              3             57
+.\app\usuarios\clientes\editar.php                                                                                        23              1             57
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\big_endian.h                                                          9             16             57
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\providers\snappy-c.h                                         14              4             57
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_limit.h                                                  15             29             57
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Image.php                                    16             48             56
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\ListBulletImage.php                          15             40             56
+.\app\clientes\editar.php                                                                                                 23              1             55
+.\app\login\login.js                                                                                                      13              0             55
+.\app\usuarios\usuario_eliminar.php                                                                                       15              2             55
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_handler.h                                                13             14             55
+.\php\license.txt                                                                                                         13              0             55
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_admin.h                                                  27             36             54
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_repl.h                                                   16             11             54
+.\app\caja\caja_arqueo.php                                                                                                15              1             53
+.\app\prestamo\prestamo_actualizar.php                                                                                    16              0             53
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\contributors.h                                               14             22             53
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_rewrite_date_cmp.h                                       28             37             53
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\psi_memory.h                                               32             80             52
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_encryption_scheme.h                                    30             51             52
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_constants.h                                              23             40             52
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sys_vars_shared.h                                            16             19             52
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\waiting_threads.h                                            22             55             52
+.\app\respaldo\respaldo_cron.php                                                                                          13             13             51
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_ident_sys.h                                              12             12             51
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\queues.h                                                     11             26             51
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\tzfile.h                                                     21             62             51
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\ListBullet.php                               19             48             50
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\log_event_data_type.h                                        13             11             50
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_file_provider.h                                          27             15             50
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_delete.h                                                 24             40             50
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\composer.json                                                    0              0             49
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameListIterator.php                                 12             39             49
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\atomic\gcc_builtins.h                                        18             11             49
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_check_opt.h                                                9             20             49
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_mode.h                                                   20             89             49
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_update.h                                                 27             41             49
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableRow.php                                  14             24             48
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Image.php                                          11             14             48
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\ha_handler_stats.h                                           12             31             48
+.\app\db\mora_automatica.php                                                                                              14              4             47
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Canvas.php                                                  43            397             47
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Block.php                                          14             20             47
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\records.h                                                    19             34             47
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\little_endian.h                                                      12             17             46
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\assume_aligned.h                                             11             12             46
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\providers\lz4.h                                              13              4             46
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_tblmap.h                                                 24             43             46
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_signal.h                                                 20             57             46
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\sslopt-longopts.h                                                     7             12             46
+.\app\clientes\clientes_save.php                                                                                          12              0             45
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableRowGroup.php                             14             22             45
+.\app\prestamo\prestamo_eliminar.php                                                                                      14              0             44
+.\mariadb\mariadb-12.3.2-winx64\README.md                                                                                 25              0             44
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\create_tmp_table.h                                           12             24             44
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\providers\lzo\lzo1x.h                                        14              4             44
+.\app\clientes\actualizar.php                                                                                             14              0             43
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameTreeIterator.php                                 11             34             43
+.\app\usuarios\usuario_desbloquear.php                                                                                    12              1             43
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb_ctype.h                                                             15             18             43
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_table_provider.h                                         25             15             43
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_schema.h                                                 15             34             43
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\wsrep.h                                                      15             16             43
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_error_context.h                                    10             41             42
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\field_composite.h                                             9             22             42
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_atomic.h                                                  24             90             42
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_tvc.h                                                    17             17             42
+.\app\clientes\clases\FotografiaUploader.php                                                                              13              8             41
+.\app\clientes\clientes_delete.php                                                                                        13              0             41
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\psi_base.h                                                 39            105             41
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_my_print_error.h                                       16             16             41
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_transaction_provider.h                                   23             15             41
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\scheduler.h                                                  16             38             41
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_net.h                                                             14             26             40
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_plugin_compat.h                                          10             15             40
+.\app\configuracion\configuracion.php                                                                                      5              0             39
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_alloc.h                                                           17             19             39
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_progress_report.h                                      17             26             39
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\select_handler.h                                             30             50             39
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_queue.h                                                   9             14             39
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_test.h                                                   15             20             39
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_auth.h                                                  40            105             38
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_base64.h                                               21             23             38
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_debug_sync.h                                          102            225             38
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_timeofday.h                                          7             22             38
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\CanvasFactory.php                                            7             24             37
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableRowGroup.php                            10             27             37
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_idle.h                                               16             51             37
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_atomic_wrapper.h                                           8             24             37
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\xa.h                                                         10             14             37
+.\app\redito\redito_cancelar.php                                                                                          11              0             36
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_md5.h                                                  17             16             36
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_sha1.h                                                 17             16             36
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\handler_binlog_reader.h                                      13             48             36
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\statement_rcontext.h                                         12             36             36
+.\app\login\login.php                                                                                                      4              1             35
+.\inicial_presta_app.bat                                                                                                  11             17             35
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mariadb_capi_rename.h                                                 9             16             35
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_wait.h                                             21             48             35
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_socket_provider.h                                        21             15             35
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\semisync.h                                                   13             25             35
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\service_versions.h                                            7             12             35
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\deprecation.h                                                 8             26             34
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_metadata_provider.h                                      18             15             34
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_string.h                                             7             12             34
+.\.VSCodeCounter\2026-09-05_10-46-51\diff.txt                                                                              3              0             33
+.\app\reportes\reporte_generar.php                                                                                        12              0             33
+.\app\respaldo\respaldo_generar.php                                                                                       12              4             33
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\mysql_memory.h                                             15             31             33
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\log_slow.h                                                   13             15             33
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_json_lib.h                                                7             36             33
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\tztime.h                                                     18             47             33
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_auth_common.h                                           19             83             32
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb_version.h                                                            8              5             31
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\services.h                                                      8             13             31
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql_version.h                                                       7              6             31
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\keycaches.h                                                  13             13             31
+.\metricas.xml                                                                                                             0              0             31
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mariadb\ma_io.h                                                             11             14             30
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\group_by_handler.h                                           20             63             30
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_view.h                                                   25             16             30
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\typelib.h                                                            13             22             30
+.\app\usuarios\administradores_helper.php                                                                                  7             18             29
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_my_snprintf.h                                          32             63             29
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_db.h                                                     10             11             29
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\PhpEvaluator.php                                             8             26             28
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Inline.php                                        8             20             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_specifics.h                                        30             52             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\backup.h                                                      8             11             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\key.h                                                         7             11             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lock.h                                                       11             15             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_service_manager.h                                          8             19             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_real.h                                               8             11             28
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\wsrep_on.h                                                   17             13             28
+.\.VSCodeCounter\2026-09-05_11-37-48\results.txt                                                                           3              0             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_encryption.h                                            26             75             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\aria_backup.h                                                 9             14             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\derived_handler.h                                            23             35             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_relay_log_info_file.h                                     9             21             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_truncate.h                                               14             30             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\strfunc.h                                                     8             14             27
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\sslopt-case.h                                                         5             17             27
+.\.VSCodeCounter\2026-09-05_10-45-14\results.txt                                                                           3              0             26
+.\.VSCodeCounter\2026-09-05_10-46-51\results.txt                                                                           3              0             26
+.\.VSCodeCounter\2026-09-05_10-47-25\results.txt                                                                           3              0             26
+.\app\db\db.php                                                                                                            7              0             26
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\ListBullet.php                                 7             18             26
+.\app\respaldo\google_desconectar.php                                                                                      8              0             26
+.\app\respaldo\onedrive_desconectar.php                                                                                    8              0             26
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\optimizer_defaults.h                                         39            125             26
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\scan_char.h                                                   8             19             26
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Counters.php                                     6              9             25
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mysql\plugin_auth.h                                                         17             65             25
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_timezone.h                                         20             28             25
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\client_settings.h                                            11             16             25
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_memory_provider.h                                        17             15             25
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_alloc.h                                                   6             13             25
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\thr_timer.h                                                   9             14             25
+.\mariadb\mariadb-12.3.2-winx64\share\mariadb_performance_tables.sql                                                      14             18             25
+.\app\db\validacion.css                                                                                                    4              1             24
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\ma_list.h                                                                   10             13             24
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_list.h                                                            10             11             24
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_kill_statement.h                                       20             27             24
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_counter.h                                                 12             13             24
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_servers.h                                                13             17             24
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Block.php                                         7             10             23
+.\app\respaldo\cifrado_helper.php                                                                                          9              0             23
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_rnd.h                                              15             24             23
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_nosys.h                                                    9             15             23
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Counter.php                                      5              6             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql_time.h                                                         13             44             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\compat56.h                                                   13             22             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\debug_sync.h                                                 11             18             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_default.h                                                 12             13             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_bootstrap.h                                              12             21             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_crypt.h                                                   7             11             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_type_ref.h                                                8             11             22
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\threadpool_winsockets.h                                      19             39             22
+.\mariadb\mariadb-12.3.2-winx64\share\mariadb_system_tables_data.sql                                                       7             27             22
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\JavascriptEmbedder.php                                       6             24             21
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\AbstractPositioner.php                            6             21             21
+.\app\respaldo\google_conectar.php                                                                                         6              0             21
+.\app\respaldo\onedrive_conectar.php                                                                                       6              0             21
+.\app\respaldo\respaldo_descargar.php                                                                                      8              3             21
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_function.h                                              14             19             21
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\lex_symbol.h                                                 12             13             21
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_md5.h                                                     12             19             21
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_stage_provider.h                                         16             15             21
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\repl_failsafe.h                                              11             11             21
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\phpunit.xml                                                      0              0             20
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_autoinc.h                                          10             23             20
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\aligned.h                                                     6             12             20
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_tracker.h                                                  7             14             20
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\transaction.h                                                12             11             20
+.\.VSCodeCounter\2026-09-05_10-45-14\diff.txt                                                                              3              0             19
+.\.VSCodeCounter\2026-09-05_10-47-25\diff.txt                                                                              3              0             19
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Attr.php                                         4              3             19
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\StringPart.php                                   4              3             19
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Url.php                                          4              3             19
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\ListBullet.php                                    5             18             19
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_alloca.h                                                           8             20             19
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_print_check_msg.h                                      10             15             19
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rpl_record.h                                                 10             13             19
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_digest_stream.h                                          10             22             19
+.\.VSCodeCounter\2026-09-05_10-46-51\diff.md                                                                               7              0             18
+.\app\caja\caja_registro_automatico.php                                                                                    5              7             18
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_password_validation.h                                   14             23             18
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\datadict.h                                                   12             21             18
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\des_key_file.h                                               11             11             18
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\discover.h                                                    9             12             18
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\pfs_idle_provider.h                                          15             15             18
+.\.VSCodeCounter\2026-09-05_10-46-51\diff-details.md                                                                       6              0             17
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\AUTHORS.md                                                       7              0             17
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts\mustRead.html                                          0              0             17
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\TableCell.php                                     3             13             17
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\TableRow.php                                      4             13             17
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_log_warnings.h                                         12             23             17
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\NullFrameDecorator.php                        2             15             16
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableRow.php                                        7             17             16
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableRowGroup.php                                   7             17             16
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\password.h                                                   10             17             16
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_used.h                                                    6             11             16
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\vector_mhnsw.h                                                6             17             16
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\wqueue.h                                                      8             15             16
+.\.VSCodeCounter\2026-09-05_10-45-14\results.md                                                                            7              0             15
+.\.VSCodeCounter\2026-09-05_10-46-51\results.md                                                                            7              0             15
+.\.VSCodeCounter\2026-09-05_10-47-25\results.md                                                                            7              0             15
+.\.VSCodeCounter\2026-09-05_11-37-48\results.md                                                                            7              0             15
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\NullFrameReflower.php                          5             17             15
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\handler_state.h                                                       1              5             15
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\service_thd_mdl.h                                              10             21             15
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql_com_server.h                                                   11             15             15
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sp_cache.h                                                   14             33             15
+.\mariadb\mariadb-12.3.2-winx64\share\maria_add_gis_sp.sql                                                                 8             14             15
+.\.VSCodeCounter\2026-09-05_11-37-48\details.md                                                                            6              0             14
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_virtual_mem.h                                              8             15             14
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\proxy_protocol.h                                              5              0             14
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\rijndael.h                                                   11             22             14
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\welcome_copyright_notice.h                                    7             17             14
+.\.VSCodeCounter\2026-09-05_10-45-14\details.md                                                                            6              0             13
+.\.VSCodeCounter\2026-09-05_10-46-51\details.md                                                                            6              0             13
+.\.VSCodeCounter\2026-09-05_10-47-25\details.md                                                                            6              0             13
+.\app\clientes\clases\ValidationException.php                                                                              3              5             13
+.\app\respaldo\google_config.php                                                                                           5             34             13
+.\app\respaldo\onedrive_config.php                                                                                         5             22             13
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\field_comp.h                                                  9             11             13
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\json_schema_helper.h                                          7             11             13
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_libwrap.h                                                  7             12             13
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_derived.h                                                 9             11             13
+.\mariadb\mariadb-12.3.2-winx64\share\maria_add_gis_sp_bootstrap.sql                                                      10             14             13
+.\mariadb\mariadb-12.3.2-winx64\share\mariadb_test_db.sql                                                                  4             17             13
+.\.VSCodeCounter\2026-09-05_10-45-14\diff.md                                                                               7              0             12
+.\.VSCodeCounter\2026-09-05_10-47-25\diff.md                                                                               7              0             12
+.\app\clientes\cargar_cliente.php                                                                                          5              0             12
+.\app\usuarios\clientes\cargar_cliente.php                                                                                 7              0             12
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_decimal_limits.h                                                  11             28             12
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\plugin_data_type.h                                             15             22             12
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\pack.h                                                                6             11             12
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_compr_int.h                                               17             43             12
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_load.h                                                   11             11             12
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableRow.php                                  2             15             11
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\debug.h                                                       9             20             11
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\innodb_priv.h                                                11             12             11
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_rnd.h                                                      9             11             11
+.\.VSCodeCounter\2026-09-05_10-46-51\diff.csv                                                                              0              0             10
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception\ImageException.php                                 4             16             10
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\NullPositioner.php                                3             13             10
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\auth_dialog_client.h                                           12             34             10
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\custom_conf.h                                                 6             12             10
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_callback.h                                               10             22             10
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\thr_malloc.h                                                  7             11             10
+.\.VSCodeCounter\2026-09-05_10-45-14\diff-details.md                                                                       6              0              9
+.\.VSCodeCounter\2026-09-05_10-47-25\diff-details.md                                                                       6              0              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\CloseQuote.php                                   1              0              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\ContentPart.php                                  1              0              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\NoCloseQuote.php                                 1              0              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\NoOpenQuote.php                                  1              0              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\OpenQuote.php                                    1              0              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception.php                                                2             16              9
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\my_cmp.h                                                              5             11              9
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mysqld_default_groups.h                                       0              0              9
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_union.h                                                   9             11              9
+.\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res\broken_image.svg                                         0              0              8
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\dur_prop.h                                                    6             18              8
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_minidump.h                                                 6             11              8
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_user.h                                                     9             16              8
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mysqld_suffix.h                                               8             18              8
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\probes_mysql.h                                                6             12              8
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_reload.h                                                  7             11              8
+.\.VSCodeCounter\2026-09-05_11-37-48\results.csv                                                                           0              0              7
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\derror.h                                                      6             11              7
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_group_by_cardinality.h                                    4              0              7
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_do.h                                                      8             11              7
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_rename.h                                                  7             11              7
+.\.VSCodeCounter\2026-09-05_10-45-14\results.csv                                                                           0              0              6
+.\.VSCodeCounter\2026-09-05_10-47-25\results.csv                                                                           0              0              6
+.\app\login\logout.php                                                                                                     0              0              6
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql_embed.h                                                         9             15              6
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\socketpair.h                                                  4             11              6
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_help.h                                                   10             14              6
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_manager.h                                                 6             11              6
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\item_numconvfunc.h                                            8             12              5
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\my_crypt.h                                                    6             13              5
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_trace_ddl_info.h                                          7             13              5
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\sql_binlog.h                                                  7             11              5
+.\mariadb\mariadb-12.3.2-winx64\share\mariadb_test_data_timezone.sql                                                       1             15              5
+.\sonar-project.properties                                                                                                 0              0              5
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\psi_abi_v1.h                                                6             23              4
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\psi_abi_v2.h                                                6             23              4
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\init.h                                                        6             11              4
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\mariadb.h                                                     6             20              4
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mysql_version.h                                                              3              1              3
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\opt_vcol_substitution.h                                       7             20              3
+.\.VSCodeCounter\2026-09-05_10-47-25\diff.csv                                                                              0              0              2
+.\Loancontrol\README.md                                                                                                    0              0              2
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\mysql_com.h                                                                  3              1              2
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\mysql\psi\psi_abi_v0.h                                                6             23              2
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\handle_connections_win.h                                      4             15              2
+.\.VSCodeCounter\2026-09-05_10-45-14\results.json                                                                          0              0              1
+.\.VSCodeCounter\2026-09-05_10-47-25\results.json                                                                          0              0              1
+.\.VSCodeCounter\2026-09-05_11-11-53\results.json                                                                          0              0              1
+.\.VSCodeCounter\2026-09-05_11-37-48\results.json                                                                          0              0              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.min.css                                                                   0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.rtl.min.css                                                               0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.min.css                                                                 0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.rtl.min.css                                                             0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.min.css                                                              0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.rtl.min.css                                                          0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap.min.css                                                                        0              5              1
+.\app\db\bootstrap-5.3.8-dist\css\bootstrap.rtl.min.css                                                                    0              5              1
+.\app\db\bootstrap-5.3.8-dist\js\bootstrap.bundle.min.js                                                                   0              6              1
+.\app\db\bootstrap-5.3.8-dist\js\bootstrap.esm.min.js                                                                      0              6              1
+.\app\db\bootstrap-5.3.8-dist\js\bootstrap.min.js                                                                          0              6              1
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\my_sys.h                                                                     2              1              1
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\message.h                                                     5             48              1
+.\mariadb\mariadb-12.3.2-winx64\include\mysql\server\private\source_revision.h                                             0              0              1
+.\php\phar.phar.bat                                                                                                        0              0              1
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+SUM:                                                                                                                   42281          68018         257906
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+C/C++ Header                   472          25139          48782         132473
+CSS                             19           3441            169          41502
+PHP                            143           6303          10582          27138
+JavaScript                      17           1487           1918          13920
+Text                            14           3002              0          13617
+JSON                             9              0              0          12374
+SQL                             11           1625           4995           9908
+XML                             27            540             22           4194
+Markdown                        25            281              0           1273
+Python                           1             92             23            584
+CSV                              8              0              0            559
+Perl                             1             40             80            164
+INI                              1            320           1430            134
+DOS Batch                        2             11             17             36
+HTML                             1              0              0             17
+SVG                              1              0              0              8
+Properties                       1              0              0              5
+-------------------------------------------------------------------------------
+SUM:                           753          42281          68018         257906
+-------------------------------------------------------------------------------

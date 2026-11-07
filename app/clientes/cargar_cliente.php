@@ -3,12 +3,23 @@
 declare(strict_types=1);
 
 include __DIR__ . '/../db/db.php';
+<<<<<<< HEAD
+require __DIR__ . '/ClienteRepository.php';
+=======
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 $clientes = [];
 
 try {
+<<<<<<< HEAD
+    $repositorio = new ClienteRepository($conn);
+    $clientes    = $repositorio->obtenerTodos();
+} catch (mysqli_sql_exception $e) {
+    error_log('Error al cargar clientes: ' . $e->getMessage());
+}
+=======
     $result = $conn->query('SELECT * FROM clientes ORDER BY nombre, apellido');
 
     // fetch_all(MYSQLI_ASSOC) reemplaza el while + fetch_assoc() manual:
@@ -22,3 +33,4 @@ try {
     error_log('Error al cargar clientes: ' . $e->getMessage());
 }
 ?>
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608

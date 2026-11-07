@@ -24,12 +24,16 @@ if (empty($datos['telefono']) || empty($datos['id_pago'])) {
 $idPago = (int) $datos['id_pago'];
 
 try {
+<<<<<<< HEAD
+     $config = $conn->query('SELECT nombre_empresa, whatsapp_token, whatsapp_phone_id, whatsapp_api_version FROM configuracion_sistema WHERE id = 1')->fetch_assoc();
+=======
     // Credenciales de WhatsApp propias de ESTA instalación/empresa —
     // configuradas desde el módulo de Respaldo, no fijas en el código.
     // Así, cada prestamista que use el sistema manda sus recibos desde su
     // propio número de WhatsApp Business, sin que nadie tenga que tocar
     // el código fuente.
     $config = $conn->query('SELECT nombre_empresa, whatsapp_token, whatsapp_phone_id, whatsapp_api_version FROM configuracion_sistema WHERE id = 1')->fetch_assoc();
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
     if (empty($config['whatsapp_token']) || empty($config['whatsapp_phone_id'])) {
         responder(['status' => 'error', 'mensaje' => 'WhatsApp Business no está configurado. Ve al módulo de Respaldo y configura tu token y Phone Number ID.'], 400);
@@ -40,8 +44,12 @@ try {
     $waPhoneId     = $config['whatsapp_phone_id'];
     $waVersion     = $config['whatsapp_api_version'] ?: 'v19.0';
 
+<<<<<<< HEAD
+     $stmt = $conn->prepare(
+=======
     // Cargar datos del pago para el mensaje
     $stmt = $conn->prepare(
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         "SELECT pg.*, CONCAT(c.nombre,' ',c.apellido) AS cliente,
                 p.cuota_monto, p.saldo_pendiente
          FROM pagos pg
@@ -64,7 +72,10 @@ if ($pago === null) {
     responder(['status' => 'error', 'mensaje' => 'Pago no encontrado'], 404);
 }
 
+<<<<<<< HEAD
+=======
 // Formatear teléfono (quitar guiones/espacios, agregar código país si falta)
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $telefono = preg_replace('/[^0-9]/', '', (string) $datos['telefono']);
 if (strlen($telefono) === 10) {
     $telefono = '1' . $telefono; // ajusta tu código de país
@@ -74,8 +85,11 @@ if ($telefono === '' || strlen($telefono) < 10) {
     responder(['status' => 'error', 'mensaje' => 'El número de teléfono no es válido'], 400);
 }
 
+<<<<<<< HEAD
+=======
 // Mensaje del recibo — usa el nombre de la empresa configurado, no un
 // texto fijo, para que el recibo salga con la marca de cada prestamista.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $mensaje = "🧾 *Recibo de Pago - " . strtoupper($nombreEmpresa) . "*\n\n"
     . "Cliente: {$pago['cliente']}\n"
     . "Préstamo #: {$pago['id_prestamo']}\n"
@@ -88,7 +102,10 @@ $mensaje = "🧾 *Recibo de Pago - " . strtoupper($nombreEmpresa) . "*\n\n"
     . 'Saldo restante: $' . number_format((float) $pago['saldo_restante'], 2) . "\n\n"
     . '¡Gracias por su pago!';
 
+<<<<<<< HEAD
+=======
 // Enviar vía WhatsApp Business API
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $url     = 'https://graph.facebook.com/' . $waVersion . '/' . $waPhoneId . '/messages';
 $payload = json_encode([
     'messaging_product' => 'whatsapp',

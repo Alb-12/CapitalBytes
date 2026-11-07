@@ -2,21 +2,39 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 require __DIR__ . '/../db/db.php';
 require __DIR__ . '/../db/mora_automatica.php';
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
+<<<<<<< HEAD
+=======
 // Cualquier rol con sesión puede crear préstamos, pero editar el estado o
 // eliminar un préstamo existente queda solo para Administrador.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $puedeEditarEliminar = ($_SESSION['rol'] ?? '') === 'Administrador';
 
 $prestamos = [];
 $clientes  = [];
 
+<<<<<<< HEAD
+
+try {
+    aplicarMoraAutomatica($conn);
+} catch (Throwable $e) {
+    error_log('Error en aplicarMoraAutomatica(): ' . $e->getMessage());
+}
+
+try {
+=======
 try {
     aplicarMoraAutomatica($conn);
 
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     // Cargar préstamos con nombre del cliente
     $sql = "SELECT p.*, CONCAT(c.nombre, ' ', c.apellido) AS nombre_cliente
             FROM prestamos p
@@ -29,9 +47,13 @@ try {
     $resC     = $conn->query('SELECT id_cliente, nombre, apellido, cedula FROM clientes ORDER BY nombre');
     $clientes = $resC->fetch_all(MYSQLI_ASSOC);
 } catch (mysqli_sql_exception $e) {
+<<<<<<< HEAD
+    
+=======
     // Igual que en cargar_cliente.php: esta página devuelve HTML, no JSON,
     // así que registramos el error y dejamos los arrays vacíos en vez de
     // romper toda la página. Las tablas ya manejan el caso "sin datos".
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     error_log('Error al cargar préstamos/clientes: ' . $e->getMessage());
 }
 
@@ -145,9 +167,13 @@ $e = static fn(string $valor): string => htmlspecialchars($valor, ENT_QUOTES, 'U
         <tbody>
             <?php foreach ($prestamos as $p): ?>
                 <?php
+<<<<<<< HEAD
+                    
+=======
                     // JSON_HEX_APOS/QUOT evitan que un apóstrofo en el nombre del
                     // cliente (ej. "O'Brien") rompa el atributo onclick, igual que
                     // hicimos con las tarjetas de clientes.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
                     $prestamoJson = json_encode($p, JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE);
                 ?>
                 <tr>
@@ -175,4 +201,8 @@ $e = static fn(string $valor): string => htmlspecialchars($valor, ENT_QUOTES, 'U
             <?php endforeach; ?>
         </tbody>
     </table>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608

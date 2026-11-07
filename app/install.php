@@ -389,14 +389,24 @@ function googleRedirectUri(): string
 {
     \$protocolo = (!empty(\$_SERVER['HTTPS']) && \$_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
     \$host = \$_SERVER['HTTP_HOST'] ?? 'localhost';
+<<<<<<< HEAD
+    \$carpeta = rtrim(str_replace('\\\\', '/', dirname(\$_SERVER['SCRIPT_NAME'])), '/');
+    return "\$protocolo://\$host\$carpeta/google_callback.php";
+=======
     return "\$protocolo://\$host/SistemaPrestamo/respaldo/google_callback.php";
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 }
 
 function oneDriveRedirectUri(): string
 {
     \$protocolo = (!empty(\$_SERVER['HTTPS']) && \$_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
     \$host = \$_SERVER['HTTP_HOST'] ?? 'localhost';
+<<<<<<< HEAD
+    \$carpeta = rtrim(str_replace('\\\\', '/', dirname(\$_SERVER['SCRIPT_NAME'])), '/');
+    return "\$protocolo://\$host\$carpeta/onedrive_callback.php";
+=======
     return "\$protocolo://\$host/SistemaPrestamo/respaldo/onedrive_callback.php";
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 }
 
 PHP;
@@ -423,8 +433,13 @@ PHP;
 
             <?php if ($exito): ?>
                 <div class="alert alert-success">
+<<<<<<< HEAD
+                      ✔ Instalación completada correctamente. Ya puedes iniciar sesión.
+                 </div>
+=======
                     ✔ Instalación completada correctamente. Ya puedes iniciar sesión.
                 </div>
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
                 <a href="login/login.php" class="btn btn-primary">Ir a Iniciar Sesión</a>
                 <p class="text-muted small mt-3">
                     ⚠️ Por seguridad, borra o renombra este archivo (<code>install.php</code>) ahora

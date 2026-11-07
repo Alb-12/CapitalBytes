@@ -1,7 +1,11 @@
+<<<<<<< HEAD
+
+=======
 // caja.js — lógica del módulo de Caja.
 // Autocontenido: no depende de common.js (que solo se carga en clientes).
 
 // ─── Helpers propios de este módulo ───────────────────────────────────
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function marcarCampoInvalido(id, mensaje) {
     const el = document.getElementById(id);
     if (!el) return;
@@ -54,7 +58,11 @@ async function apiRequest(url, options = {}) {
     try {
         data = await res.json();
     } catch {
+<<<<<<< HEAD
+        
+=======
         // La respuesta no era JSON (ej. error 500 crudo de PHP)
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     }
     if (!res.ok) {
         const error = new Error(data?.message ?? data?.mensaje ?? `Error del servidor (${res.status})`);

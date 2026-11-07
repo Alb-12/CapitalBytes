@@ -35,8 +35,11 @@ if (!is_numeric($datos['monto_capital'] ?? null) || (float) $datos['monto_capita
 }
 $montoCapital = (float) $datos['monto_capital'];
 
+<<<<<<< HEAD
+=======
 // El rédito por cada 1000 tiene un valor por defecto (200) pero se puede
 // ajustar por préstamo, tal como lo dejamos en el formulario.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $tasaRedito = is_numeric($datos['tasa_redito'] ?? null) ? (float) $datos['tasa_redito'] : 200.0;
 if ($tasaRedito < 0) {
     responder(['status' => 'error', 'mensaje' => 'La tasa de rédito no puede ser negativa', 'campo' => 'tasa_redito'], 400);
@@ -58,8 +61,12 @@ $idUsuario = (int) $_SESSION['id_usuario'];
 $fechaRegistro = date('Y-m-d H:i:s');
 
 try {
+<<<<<<< HEAD
+     $checkCliente = $conn->prepare('SELECT 1 FROM clientes WHERE id_cliente = ?');
+=======
     // Verificar que el cliente exista realmente
     $checkCliente = $conn->prepare('SELECT 1 FROM clientes WHERE id_cliente = ?');
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $checkCliente->bind_param('i', $idCliente);
     $checkCliente->execute();
     $existeCliente = $checkCliente->get_result()->num_rows > 0;
@@ -69,8 +76,12 @@ try {
         responder(['status' => 'error', 'mensaje' => 'El cliente seleccionado no existe', 'campo' => 'id_cliente'], 404);
     }
 
+<<<<<<< HEAD
+     $stmt = $conn->prepare(
+=======
     // saldo_capital arranca igual al monto_capital; baja con cada abono
     $stmt = $conn->prepare(
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         "INSERT INTO prestamos_redito
             (id_cliente, monto_capital, saldo_capital, tasa_redito, modalidad_pagos, estado, fecha_inicio, fecha_registro, registrado_por)
          VALUES (?, ?, ?, ?, ?, 'Activo', ?, ?, ?)"
@@ -79,7 +90,11 @@ try {
         'idddsssi',
         $idCliente,
         $montoCapital,
+<<<<<<< HEAD
+        $montoCapital, 
+=======
         $montoCapital, // saldo_capital inicial = monto_capital
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         $tasaRedito,
         $modalidad,
         $fechaInicio,

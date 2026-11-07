@@ -1,14 +1,20 @@
+<<<<<<< HEAD
+=======
 // login.js — flujo de login vía AJAX, con progressive enhancement:
 // si algo falla aquí (JS bloqueado, error de red inesperado), el <form>
 // de login.php sigue funcionando con un envío normal a login_proceso.php,
 // porque nunca quitamos el action/method del formulario.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 document.getElementById('formLogin')?.addEventListener('submit', iniciarSesion);
 
 async function iniciarSesion(evento) {
+<<<<<<< HEAD
+=======
     // Evita el envío normal del formulario (recarga de página) SOLO si
     // JS está corriendo — si este script no llegó a cargar, el navegador
     // nunca ejecuta este código y el <form> se envía normal igual.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     evento.preventDefault();
 
     const btn = document.getElementById('btnLogin');
@@ -32,9 +38,12 @@ async function iniciarSesion(evento) {
         return;
     }
 
+<<<<<<< HEAD
+=======
     // Deshabilita el botón mientras se procesa: evita doble-clic / doble
     // envío (que podría, por ejemplo, contar como 2 intentos fallidos en
     // vez de 1 si la contraseña estaba mal).
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     btn.disabled = true;
     const textoOriginal = btn.textContent;
     btn.textContent = 'Verificando...';
@@ -55,19 +64,25 @@ async function iniciarSesion(evento) {
         }
 
         if (res.ok && data.status === 'success') {
+<<<<<<< HEAD
+=======
             // No reactivamos el botón: la página va a navegar de todas
             // formas, y dejarlo deshabilitado evita un doble-click
             // accidental mientras el navegador redirige.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
             window.location.href = 'dashboard.php';
             return;
         }
 
         mostrarError(data.message || 'Usuario o contraseña incorrectos');
 
+<<<<<<< HEAD
+=======
         // Por seguridad (y para que no quede una contraseña fallida visible
         // si alguien más mira la pantalla), limpiamos el campo de
         // contraseña tras un intento fallido. El usuario no se borra, para
         // no obligar a reescribirlo cada vez.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         campoContrasena.value = '';
         campoContrasena.focus();
     } catch (error) {

@@ -4,12 +4,16 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/google_config.php';
 
+<<<<<<< HEAD
+
+=======
 /**
  * Cifra un texto (ej. un refresh_token) usando AES-256-CBC con la clave
  * definida en APP_ENCRYPTION_KEY. El IV se genera aleatorio en cada
  * llamada y se guarda junto con el texto cifrado (es seguro hacerlo así,
  * el IV no es secreto, solo debe ser único por cada cifrado).
  */
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function cifrar(string $texto): string
 {
     $iv = random_bytes(16);
@@ -17,10 +21,14 @@ function cifrar(string $texto): string
     return base64_encode($iv . $cifrado);
 }
 
+<<<<<<< HEAD
+
+=======
 /**
  * Descifra un texto generado por cifrar(). Devuelve null si el texto está
  * corrupto, vacío, o fue cifrado con una clave distinta a la actual.
  */
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function descifrar(?string $textoCifrado): ?string
 {
     if ($textoCifrado === null || $textoCifrado === '') {

@@ -1,0 +1,247 @@
+Date : 2026-09-05 11:11:53
+Directory : c:\xampp\htdocs\SistemaPrestamo\app
+Total : 177 files,  83017 codes, 12563 comments, 11326 blanks, all 106906 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PostCSS    |         19 |     41,510 |        161 |      3,443 |     45,114 |
+| PHP        |        133 |     26,708 |     10,427 |      6,256 |     43,391 |
+| JavaScript |         16 |     13,772 |      1,911 |      1,465 |     17,148 |
+| MS SQL     |          2 |        662 |         64 |         86 |        812 |
+| Markdown   |          2 |        191 |          0 |         74 |        265 |
+| JSON       |          2 |        129 |          0 |          1 |        130 |
+| XML        |          2 |         28 |          0 |          1 |         29 |
+| HTML       |          1 |         17 |          0 |          0 |         17 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                     |        177 |     83,017 |     12,563 |     11,326 |    106,906 |
+| . (Files)                                                                                                                             |          3 |        614 |         38 |        105 |        757 |
+| caja                                                                                                                                  |          5 |        573 |         18 |         86 |        677 |
+| clientes                                                                                                                              |          7 |        611 |         23 |        141 |        775 |
+| configuracion                                                                                                                         |          1 |         39 |          0 |          5 |         44 |
+| db                                                                                                                                    |         26 |     53,425 |      1,965 |      4,572 |     59,962 |
+| db (Files)                                                                                                                            |          4 |        312 |         22 |         63 |        397 |
+| db\bootstrap-5.3.8-dist                                                                                                               |         22 |     53,113 |      1,943 |      4,509 |     59,565 |
+| db\bootstrap-5.3.8-dist\css                                                                                                           |         16 |     40,876 |        108 |      3,304 |     44,288 |
+| db\bootstrap-5.3.8-dist\js                                                                                                            |          6 |     12,237 |      1,835 |      1,205 |     15,277 |
+| libs                                                                                                                                  |         88 |     22,819 |     10,228 |      5,512 |     38,559 |
+| libs\Dompdf 3.1.5 source code                                                                                                         |         88 |     22,819 |     10,228 |      5,512 |     38,559 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2                                                                                   |         88 |     22,819 |     10,228 |      5,512 |     38,559 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2 (Files)                                                                           |          4 |        260 |          0 |         76 |        336 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib                                                                               |          5 |      4,761 |      1,702 |      1,093 |      7,556 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib (Files)                                                                       |          1 |      4,261 |      1,667 |        996 |      6,924 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts                                                                         |          2 |         97 |          0 |          0 |         97 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res                                                                           |          2 |        403 |         35 |         97 |        535 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src                                                                               |         79 |     17,798 |      8,526 |      4,343 |     30,667 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src (Files)                                                                       |         13 |      4,369 |      2,958 |      1,107 |      8,434 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter                                                                       |          3 |      2,223 |        821 |        582 |      3,626 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css                                                                           |         14 |      4,829 |      1,934 |        997 |      7,760 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css (Files)                                                                   |          4 |      4,680 |      1,910 |        959 |      7,549 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content                                                                   |         10 |        149 |         24 |         38 |        211 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception                                                                     |          1 |         10 |         16 |          5 |         31 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame                                                                         |          4 |        437 |        242 |         99 |        778 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator                                                                |         13 |      1,782 |      1,006 |        511 |      3,299 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower                                                                 |         12 |      2,284 |        841 |        588 |      3,713 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Image                                                                         |          1 |        195 |         62 |         36 |        293 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner                                                                    |          9 |        275 |        165 |         68 |        508 |
+| libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer                                                                      |          9 |      1,394 |        481 |        350 |      2,225 |
+| login                                                                                                                                 |          4 |        185 |         17 |         39 |        241 |
+| pagos                                                                                                                                 |          4 |        605 |         23 |        100 |        728 |
+| prestamo                                                                                                                              |          5 |        561 |         16 |        129 |        706 |
+| redito                                                                                                                                |          5 |        558 |          6 |        109 |        673 |
+| reportes                                                                                                                              |          4 |        659 |          7 |         95 |        761 |
+| respaldo                                                                                                                              |         18 |      1,693 |        179 |        305 |      2,177 |
+| respaldo (Files)                                                                                                                      |         16 |      1,031 |        115 |        219 |      1,365 |
+| respaldo\backups                                                                                                                      |          2 |        662 |         64 |         86 |        812 |
+| usuarios                                                                                                                              |          7 |        675 |         43 |        128 |        846 |
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                              | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\xampp\htdocs\SistemaPrestamo\app\caja\caja.js                                                                                      | JavaScript |        211 |          6 |         26 |        243 |
+| c:\xampp\htdocs\SistemaPrestamo\app\caja\caja.php                                                                                     | PHP        |        233 |          3 |         24 |        260 |
+| c:\xampp\htdocs\SistemaPrestamo\app\caja\caja_arqueo.php                                                                              | PHP        |         53 |          1 |         15 |         69 |
+| c:\xampp\htdocs\SistemaPrestamo\app\caja\caja_registro_automatico.php                                                                 | PHP        |         18 |          7 |          5 |         30 |
+| c:\xampp\htdocs\SistemaPrestamo\app\caja\caja_save.php                                                                                | PHP        |         58 |          1 |         16 |         75 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\actualizar.php                                                                           | PHP        |         94 |          0 |         25 |        119 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\cargar_cliente.php                                                                       | PHP        |         12 |          0 |          7 |         19 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes.js                                                                              | JavaScript |        148 |         13 |         25 |        186 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes.php                                                                             | PHP        |        140 |          2 |         20 |        162 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes_delete.php                                                                      | PHP        |         57 |          3 |         16 |         76 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\clientes_save.php                                                                        | PHP        |        103 |          4 |         24 |        131 |
+| c:\xampp\htdocs\SistemaPrestamo\app\clientes\editar.php                                                                               | PHP        |         57 |          1 |         24 |         82 |
+| c:\xampp\htdocs\SistemaPrestamo\app\common.js                                                                                         | JavaScript |         57 |          1 |         16 |         74 |
+| c:\xampp\htdocs\SistemaPrestamo\app\configuracion\configuracion.php                                                                   | PHP        |         39 |          0 |          5 |         44 |
+| c:\xampp\htdocs\SistemaPrestamo\app\dashboard.php                                                                                     | PHP        |        140 |          3 |         28 |        171 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.css                                                    | PostCSS    |      3,886 |          6 |        193 |      4,085 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.min.css                                                | PostCSS    |          1 |          5 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.rtl.css                                                | PostCSS    |      3,886 |          6 |        192 |      4,084 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-grid.rtl.min.css                                            | PostCSS    |          1 |          5 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.css                                                  | PostCSS    |        522 |         14 |         65 |        601 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.min.css                                              | PostCSS    |          1 |          5 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.rtl.css                                              | PostCSS    |        528 |          6 |         64 |        598 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-reboot.rtl.min.css                                          | PostCSS    |          1 |          5 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.css                                               | PostCSS    |      4,895 |          8 |        503 |      5,406 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.min.css                                           | PostCSS    |          1 |          5 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.rtl.css                                           | PostCSS    |      4,891 |          6 |        500 |      5,397 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap-utilities.rtl.min.css                                       | PostCSS    |          1 |          5 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.css                                                         | PostCSS    |     11,125 |         24 |        899 |     12,048 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.min.css                                                     | PostCSS    |          5 |          1 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.rtl.css                                                     | PostCSS    |     11,127 |          6 |        888 |     12,021 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\css\bootstrap.rtl.min.css                                                 | PostCSS    |          5 |          1 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.bundle.js                                                    | JavaScript |      5,062 |        655 |        596 |      6,313 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.bundle.min.js                                                | JavaScript |          1 |          6 |          0 |          7 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.esm.js                                                       | JavaScript |      3,568 |        578 |        302 |      4,448 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.esm.min.js                                                   | JavaScript |          1 |          6 |          0 |          7 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.js                                                           | JavaScript |      3,604 |        584 |        307 |      4,495 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\bootstrap-5.3.8-dist\js\bootstrap.min.js                                                       | JavaScript |          1 |          6 |          0 |          7 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\db.php                                                                                         | PHP        |         26 |          0 |          7 |         33 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\mora_automatica.php                                                                            | PHP        |         47 |          4 |         14 |         65 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\style.css                                                                                      | PostCSS    |        215 |         17 |         37 |        269 |
+| c:\xampp\htdocs\SistemaPrestamo\app\db\validacion.css                                                                                 | PostCSS    |         24 |          1 |          5 |         30 |
+| c:\xampp\htdocs\SistemaPrestamo\app\install.php                                                                                       | PHP        |        417 |         34 |         61 |        512 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\AUTHORS.md                                    | Markdown   |         17 |          0 |          8 |         25 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\README.md                                     | Markdown   |        174 |          0 |         66 |        240 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\composer.json                                 | JSON       |         49 |          0 |          1 |         50 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\Cpdf.php                                  | PHP        |      4,261 |      1,667 |        996 |      6,924 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts\installed-fonts.dist.json           | JSON       |         80 |          0 |          0 |         80 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\fonts\mustRead.html                       | HTML       |         17 |          0 |          0 |         17 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res\broken_image.svg                      | XML        |          8 |          0 |          0 |          8 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\lib\res\html.css                              | PostCSS    |        395 |         35 |         97 |        527 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\phpunit.xml                                   | XML        |         20 |          0 |          1 |         21 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\CPDF.php                          | PHP        |        612 |        242 |        152 |      1,006 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\GD.php                            | PHP        |        645 |        231 |        186 |      1,062 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Adapter\PDFLib.php                        | PHP        |        966 |        348 |        244 |      1,558 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Canvas.php                                | PHP        |         47 |        397 |         44 |        488 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\CanvasFactory.php                         | PHP        |         37 |         24 |          8 |         69 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Cellmap.php                               | PHP        |        596 |        258 |        156 |      1,010 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\AttributeTranslator.php               | PHP        |        448 |        145 |         88 |        681 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Color.php                             | PHP        |        272 |         32 |         36 |        340 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Attr.php                      | PHP        |         19 |          3 |          5 |         27 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\CloseQuote.php                | PHP        |          9 |          0 |          2 |         11 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\ContentPart.php               | PHP        |          9 |          0 |          2 |         11 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Counter.php                   | PHP        |         22 |          6 |          6 |         34 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Counters.php                  | PHP        |         25 |          9 |          7 |         41 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\NoCloseQuote.php              | PHP        |          9 |          0 |          2 |         11 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\NoOpenQuote.php               | PHP        |          9 |          0 |          2 |         11 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\OpenQuote.php                 | PHP        |          9 |          0 |          2 |         11 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\StringPart.php                | PHP        |         19 |          3 |          5 |         27 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Content\Url.php                       | PHP        |         19 |          3 |          5 |         27 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Style.php                             | PHP        |      2,804 |      1,247 |        581 |      4,632 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Css\Stylesheet.php                        | PHP        |      1,156 |        486 |        254 |      1,896 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Dompdf.php                                | PHP        |        743 |        614 |        191 |      1,548 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception.php                             | PHP        |          9 |         16 |          3 |         28 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Exception\ImageException.php              | PHP        |         10 |         16 |          5 |         31 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FontMetrics.php                           | PHP        |        385 |        230 |         96 |        711 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame.php                                 | PHP        |        697 |        358 |        187 |      1,242 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\AbstractFrameDecorator.php | PHP        |        546 |        232 |        148 |        926 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Block.php                  | PHP        |        136 |         84 |         37 |        257 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Image.php                  | PHP        |         56 |         48 |         17 |        121 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Inline.php                 | PHP        |         67 |         36 |         19 |        122 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\ListBullet.php             | PHP        |         50 |         48 |         20 |        118 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\ListBulletImage.php        | PHP        |         56 |         40 |         16 |        112 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\NullFrameDecorator.php     | PHP        |         16 |         15 |          3 |         34 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Page.php                   | PHP        |        407 |        237 |        124 |        768 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Table.php                  | PHP        |        194 |         91 |         60 |        345 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableCell.php              | PHP        |         66 |         31 |         15 |        112 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableRow.php               | PHP        |         11 |         15 |          3 |         29 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\TableRowGroup.php          | PHP        |         37 |         27 |         11 |         75 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameDecorator\Text.php                   | PHP        |        140 |        102 |         38 |        280 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\AbstractFrameReflower.php   | PHP        |        363 |        160 |         85 |        608 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Block.php                   | PHP        |        642 |        161 |        146 |        949 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Image.php                   | PHP        |        129 |         55 |         30 |        214 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Inline.php                  | PHP        |        114 |         48 |         30 |        192 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\ListBullet.php              | PHP        |         26 |         18 |          8 |         52 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\NullFrameReflower.php       | PHP        |         15 |         17 |          6 |         38 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Page.php                    | PHP        |        109 |         55 |         35 |        199 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Table.php                   | PHP        |        326 |        103 |         95 |        524 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableCell.php               | PHP        |        102 |         31 |         33 |        166 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableRow.php                | PHP        |         48 |         24 |         15 |         87 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\TableRowGroup.php           | PHP        |         45 |         22 |         15 |         82 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\FrameReflower\Text.php                    | PHP        |        365 |        147 |         90 |        602 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\Factory.php                         | PHP        |        172 |         51 |         40 |        263 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameListIterator.php               | PHP        |         49 |         39 |         13 |        101 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameTree.php                       | PHP        |        173 |        118 |         34 |        325 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Frame\FrameTreeIterator.php               | PHP        |         43 |         34 |         12 |         89 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Helpers.php                               | PHP        |        832 |        286 |        139 |      1,257 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Image\Cache.php                           | PHP        |        195 |         62 |         36 |        293 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\JavascriptEmbedder.php                    | PHP        |         21 |         24 |          7 |         52 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\LineBox.php                               | PHP        |        225 |        127 |         74 |        426 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Options.php                               | PHP        |        556 |        542 |        134 |      1,232 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\PhpEvaluator.php                          | PHP        |         28 |         26 |          9 |         63 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Absolute.php                   | PHP        |         74 |         41 |         14 |        129 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\AbstractPositioner.php         | PHP        |         21 |         21 |          7 |         49 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Block.php                      | PHP        |         23 |         10 |          8 |         41 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Fixed.php                      | PHP        |         66 |         16 |         11 |         93 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\Inline.php                     | PHP        |         28 |         20 |          9 |         57 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\ListBullet.php                 | PHP        |         19 |         18 |          6 |         43 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\NullPositioner.php             | PHP        |         10 |         13 |          4 |         27 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\TableCell.php                  | PHP        |         17 |         13 |          4 |         34 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Positioner\TableRow.php                   | PHP        |         17 |         13 |          5 |         35 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer.php                              | PHP        |        193 |         56 |         59 |        308 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\AbstractRenderer.php             | PHP        |        818 |        302 |        179 |      1,299 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Block.php                        | PHP        |         47 |         20 |         15 |         82 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Image.php                        | PHP        |         48 |         14 |         12 |         74 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Inline.php                       | PHP        |         78 |         21 |         23 |        122 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\ListBullet.php                   | PHP        |        150 |         29 |         35 |        214 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableCell.php                    | PHP        |        127 |         28 |         35 |        190 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableRow.php                     | PHP        |         16 |         17 |          8 |         41 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\TableRowGroup.php                | PHP        |         16 |         17 |          8 |         41 |
+| c:\xampp\htdocs\SistemaPrestamo\app\libs\Dompdf 3.1.5 source code\dompdf-dompdf-f11ead2\src\Renderer\Text.php                         | PHP        |         94 |         33 |         35 |        162 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\login.js                                                                                    | JavaScript |         55 |          0 |         13 |         68 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\login.php                                                                                   | PHP        |         35 |          1 |          4 |         40 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\login_proceso.php                                                                           | PHP        |         89 |         16 |         22 |        127 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\logout.php                                                                                  | PHP        |          6 |          0 |          0 |          6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos.js                                                                                    | JavaScript |        233 |         17 |         36 |        286 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos.php                                                                                   | PHP        |        177 |          4 |         25 |        206 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos_save.php                                                                              | PHP        |         95 |          2 |         17 |        114 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\whatsapp_enviar.php                                                                         | PHP        |        100 |          0 |         22 |        122 |
+| c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo.js                                                                              | JavaScript |        222 |         11 |         41 |        274 |
+| c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo.php                                                                             | PHP        |        143 |          3 |         32 |        178 |
+| c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo_actualizar.php                                                                  | PHP        |         53 |          0 |         17 |         70 |
+| c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo_eliminar.php                                                                    | PHP        |         44 |          0 |         14 |         58 |
+| c:\xampp\htdocs\SistemaPrestamo\app\prestamo\prestamo_save.php                                                                        | PHP        |         99 |          2 |         25 |        126 |
+| c:\xampp\htdocs\SistemaPrestamo\app\redito\redito.js                                                                                  | JavaScript |        169 |          6 |         34 |        209 |
+| c:\xampp\htdocs\SistemaPrestamo\app\redito\redito.php                                                                                 | PHP        |        202 |          0 |         26 |        228 |
+| c:\xampp\htdocs\SistemaPrestamo\app\redito\redito_cancelar.php                                                                        | PHP        |         36 |          0 |         12 |         48 |
+| c:\xampp\htdocs\SistemaPrestamo\app\redito\redito_pago.php                                                                            | PHP        |         73 |          0 |         19 |         92 |
+| c:\xampp\htdocs\SistemaPrestamo\app\redito\redito_save.php                                                                            | PHP        |         78 |          0 |         18 |         96 |
+| c:\xampp\htdocs\SistemaPrestamo\app\reportes\reporte_datos.php                                                                        | PHP        |        268 |          6 |         37 |        311 |
+| c:\xampp\htdocs\SistemaPrestamo\app\reportes\reporte_generar.php                                                                      | PHP        |         33 |          0 |         12 |         45 |
+| c:\xampp\htdocs\SistemaPrestamo\app\reportes\reportes.js                                                                              | JavaScript |        122 |          1 |         24 |        147 |
+| c:\xampp\htdocs\SistemaPrestamo\app\reportes\reportes.php                                                                             | PHP        |        236 |          0 |         22 |        258 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\backups\respaldo_2026-07-23_203940.sql                                                   | MS SQL     |        308 |         30 |         41 |        379 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\backups\respaldo_2026-07-25_182303.sql                                                   | MS SQL     |        354 |         34 |         45 |        433 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\cifrado_helper.php                                                                       | PHP        |         23 |          0 |          9 |         32 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\config_save.php                                                                          | PHP        |         97 |          4 |         23 |        124 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_callback.php                                                                      | PHP        |         67 |          3 |         15 |         85 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_conectar.php                                                                      | PHP        |         21 |          0 |          6 |         27 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_config.php                                                                        | PHP        |         13 |         34 |          5 |         52 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\google_desconectar.php                                                                   | PHP        |         26 |          0 |          8 |         34 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\helper.php                                                                               | PHP        |        177 |         19 |         40 |        236 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_callback.php                                                                    | PHP        |         69 |          3 |         16 |         88 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_conectar.php                                                                    | PHP        |         21 |          0 |          7 |         28 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_config.php                                                                      | PHP        |         13 |         22 |          6 |         41 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\onedrive_desconectar.php                                                                 | PHP        |         26 |          0 |          9 |         35 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo.js                                                                              | JavaScript |        121 |         10 |         16 |        147 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo.php                                                                             | PHP        |        252 |          0 |         26 |        278 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo_cron.php                                                                        | PHP        |         51 |         13 |         13 |         77 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo_descargar.php                                                                   | PHP        |         21 |          3 |          8 |         32 |
+| c:\xampp\htdocs\SistemaPrestamo\app\respaldo\respaldo_generar.php                                                                     | PHP        |         33 |          4 |         12 |         49 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\administradores_helper.php                                                               | PHP        |         29 |         18 |          7 |         54 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_actualizar.php                                                                   | PHP        |        116 |          9 |         25 |        150 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_desbloquear.php                                                                  | PHP        |         43 |          1 |         12 |         56 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_eliminar.php                                                                     | PHP        |         55 |          2 |         15 |         72 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuario_save.php                                                                         | PHP        |         78 |          2 |         18 |         98 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuarios.js                                                                              | JavaScript |        197 |         11 |         29 |        237 |
+| c:\xampp\htdocs\SistemaPrestamo\app\usuarios\usuarios.php                                                                             | PHP        |        157 |          0 |         22 |        179 |
+| Total                                                                                                                                 |            |     83,017 |     12,563 |     11,326 |    106,906 |
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

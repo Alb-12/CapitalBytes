@@ -61,8 +61,12 @@ try {
         "INSERT INTO caja (tipo_movimiento, origen, id_referencia, monto, descripcion, fecha, id_usuario)
          VALUES (?, ?, NULL, ?, ?, ?, ?)"
     );
+<<<<<<< HEAD
+  
+=======
     // Antes: "ssdss i" (con un espacio de más) → cadena de tipos inválida.
     // Correcta: 6 letras para 6 parámetros (tipo, origen, monto, descripcion, fecha, id_usuario).
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $stmt->bind_param('ssdssi', $tipoMovimiento, $origen, $monto, $descripcion, $fecha, $idUsuario);
     $stmt->execute();
     $stmt->close();

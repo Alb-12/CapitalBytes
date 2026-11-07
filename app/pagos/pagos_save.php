@@ -80,25 +80,36 @@ try {
     $idPago = $conn->insert_id;
     $stmt->close();
 
+<<<<<<< HEAD
+     try {
+=======
     // 2. Registrar el movimiento en caja
     // Si esto falla, no queremos perder el pago ya guardado: lo registramos
     // en el log y avisamos al usuario, pero la respuesta sigue siendo éxito
     // porque el pago SÍ quedó guardado en la tabla 'pagos'.
     try {
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         include __DIR__ . '/../caja/caja_registro_automatico.php';
         registrarPagoEnCaja($conn, $idPago, $montoPagado, $registradoPor);
     } catch (Throwable $e) {
         error_log('Pago #' . $idPago . ' guardado, pero falló el registro en caja: ' . $e->getMessage());
     }
 
+<<<<<<< HEAD
+     $nuevoEstado = $saldoRestante <= 0 ? 'Pagado' : 'Activo';
+=======
     // 3. Actualizar saldo y estado del préstamo
     $nuevoEstado = $saldoRestante <= 0 ? 'Pagado' : 'Activo';
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $upd = $conn->prepare('UPDATE prestamos SET saldo_pendiente = ?, estado = ? WHERE id_prestamo = ?');
     $upd->bind_param('dsi', $saldoRestante, $nuevoEstado, $idPrestamo);
     $upd->execute();
     $upd->close();
 
+<<<<<<< HEAD
+=======
     // 4. Devolver datos del pago para mostrar en el recibo
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     responder([
         'status' => 'success',
         'pago'   => [

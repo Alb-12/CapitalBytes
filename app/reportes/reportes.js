@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+let reporteActual = { tipo: '', datos: [], columnas: [], titulo: '' };
+
+=======
 // reportes.js — lógica del módulo de Reportes.
 // Autocontenido: no depende de common.js (que solo se carga en clientes).
 
@@ -7,17 +11,23 @@ let reporteActual = { tipo: '', datos: [], columnas: [], titulo: '' };
 // Config de cada pestaña: a qué 'tipo' del backend corresponde y en qué
 // <div> debe pintar su tabla. 'resumen' no está aquí porque ese panel
 // ya lo renderiza PHP directamente, sin AJAX.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 const TABS = {
     activos:  { tipo: 'prestamos', extra: { estado: 'Activo' }, contenedor: 'tabla-activos',  titulo: 'Préstamos Activos' },
     vencidos: { tipo: 'prestamos', extra: { estado: 'Mora' },   contenedor: 'tabla-vencidos', titulo: 'Préstamos Vencidos' },
     ingresos: { tipo: 'ingresos_mensuales', extra: {},          contenedor: 'tabla-ingresos', titulo: 'Ingresos Mensuales' }
 };
 
+<<<<<<< HEAD
+const cargadas = new Set();
+
+=======
 // Recuerda qué pestañas ya se cargaron, para no repetir la petición cada
 // vez que el usuario hace clic en la misma pestaña.
 const cargadas = new Set();
 
 // ─── Cambiar de pestaña ────────────────────────────────────────────────
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function cambiarTab(tab) {
     document.querySelectorAll('.panel-reporte').forEach((p) => { p.style.display = 'none'; });
     document.getElementById(`panel-${tab}`).style.display = 'block';
@@ -38,7 +48,10 @@ function cambiarTab(tab) {
     }
 }
 
+<<<<<<< HEAD
+=======
 // ─── Cargar los datos de una pestaña vía AJAX ──────────────────────────
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 async function cargarReporteTab(tab) {
     const config = TABS[tab];
     const contenedor = document.getElementById(config.contenedor);
@@ -67,7 +80,10 @@ async function cargarReporteTab(tab) {
     }
 }
 
+<<<<<<< HEAD
+=======
 // ─── Renderizar una tabla Bootstrap dentro de un contenedor ────────────
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function renderizarTabla(contenedor, data) {
     if (!data.datos.length) {
         contenedor.innerHTML = '<p class="text-muted">No se encontraron registros.</p>';
@@ -88,7 +104,10 @@ function renderizarTabla(contenedor, data) {
     `;
 }
 
+<<<<<<< HEAD
+=======
 // ─── Exportar PDF ─────────────────────────────────────────────────────
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function exportarPDF() {
     if (!reporteActual.datos.length) { alert('No hay datos para exportar en esta pestaña'); return; }
 
@@ -116,7 +135,10 @@ function exportarPDF() {
     doc.save(reporteActual.tipo + '_' + new Date().toISOString().slice(0, 10) + '.pdf');
 }
 
+<<<<<<< HEAD
+=======
 // ─── Exportar Excel ───────────────────────────────────────────────────
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 function exportarExcel() {
     if (!reporteActual.datos.length) { alert('No hay datos para exportar en esta pestaña'); return; }
 

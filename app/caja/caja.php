@@ -53,7 +53,11 @@ try {
 $balanceActual = (float) $balance['total_entradas'] - (float) $balance['total_salidas'];
 $netoHoy       = (float) $hoyData['entradas_hoy'] - (float) $hoyData['salidas_hoy'];
 
+<<<<<<< HEAD
+
+=======
 // Helper local para no repetir htmlspecialchars(..., ENT_QUOTES, 'UTF-8')
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $e = static fn(string $valor): string => htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
 ?>
 

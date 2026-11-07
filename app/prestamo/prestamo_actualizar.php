@@ -57,8 +57,12 @@ try {
             $stmt->close();
             responder(['status' => 'error', 'mensaje' => 'Préstamo no encontrado'], 404);
         }
+<<<<<<< HEAD
+        }
+=======
         // Existe pero el estado ya era el mismo: lo tratamos como éxito.
     }
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
     $stmt->close();
     responder(['status' => 'success']);

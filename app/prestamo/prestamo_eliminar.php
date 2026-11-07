@@ -29,8 +29,12 @@ if (empty($datos['id_prestamo']) || !ctype_digit((string) $datos['id_prestamo'])
 $idPrestamo = (int) $datos['id_prestamo'];
 
 try {
+<<<<<<< HEAD
+     $check = $conn->prepare('SELECT COUNT(*) AS total FROM pagos WHERE id_prestamo = ?');
+=======
     // Verificar que el préstamo no tenga pagos registrados antes de eliminar
     $check = $conn->prepare('SELECT COUNT(*) AS total FROM pagos WHERE id_prestamo = ?');
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $check->bind_param('i', $idPrestamo);
     $check->execute();
     $pagosRegistrados = (int) $check->get_result()->fetch_assoc()['total'];

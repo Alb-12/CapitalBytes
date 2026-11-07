@@ -1,7 +1,11 @@
+<<<<<<< HEAD
+
+=======
 // clientes.js — lógica específica del módulo de Clientes.
 // Depende de common.js (apiRequest, marcarCampoInvalido, limpiarErrores,
 // mostrarErrorGeneral, limpiarErrorGeneral, val) — asegúrate de que
 // dashboard.php cargue common.js SIEMPRE, antes que este archivo.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 // ─── Guardar nuevo cliente ───────────────────────────────────────────
 async function guardarCliente() {
@@ -14,8 +18,12 @@ async function guardarCliente() {
     limpiarErrores(requeridos);
     limpiarErrorGeneral('miModal');
 
+<<<<<<< HEAD
+    
+=======
     // Marcamos TODOS los campos vacíos a la vez (no solo el primero),
     // así el usuario ve de un vistazo todo lo que falta por llenar.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     let primerCampoInvalido = null;
     for (const campo of requeridos) {
         if (!val(campo)) {
@@ -73,7 +81,11 @@ function buscarCliente() {
 async function abrirModalEdicion(cedula) {
     try {
         const response = await fetch(
+<<<<<<< HEAD
+            'clientes/editar.php?cedula=' + encodeURIComponent(cedula)
+=======
             '/SistemaPrestamo/clientes/editar.php?cedula=' + encodeURIComponent(cedula)
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         );
         if (!response.ok) throw new Error('No se pudo cargar el formulario');
 
@@ -104,7 +116,11 @@ async function eliminarCliente(cedula) {
     if (!confirm('¿Estás seguro de eliminar este cliente?')) return;
 
     try {
+<<<<<<< HEAD
+        const data = await apiRequest('clientes/clientes_delete.php', {
+=======
         const data = await apiRequest('/SistemaPrestamo/clientes/eliminar.php', {
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ cedula })
@@ -148,7 +164,11 @@ async function actualizarCliente() {
         datos[campo] = val(id);
     }
 
+<<<<<<< HEAD
+    const requeridos = Object.keys(camposFormulario);
+=======
     const requeridos = ['nombre', 'apellido', 'cedula', 'telefono', 'correo'];
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     let primerCampoInvalido = null;
     for (const campo of requeridos) {
         if (!datos[campo]) {
@@ -162,15 +182,27 @@ async function actualizarCliente() {
     }
 
     try {
+<<<<<<< HEAD
+        const data = await apiRequest('clientes/actualizar.php', {
+=======
         const data = await apiRequest('/SistemaPrestamo/clientes/actualizar.php', {
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(datos)
         });
 
+<<<<<<< HEAD
+        if (data?.status === 'success') {
+            cerrarModal();
+            location.reload();
+        } else {
+            mostrarErrorGeneral('contenidoModal', data?.message || 'No se recibió respuesta del servidor');
+=======
         if (data.status === 'success') {
             cerrarModal();
             location.reload();
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         }
     } catch (error) {
         console.error(error);

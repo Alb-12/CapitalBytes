@@ -36,9 +36,12 @@ try {
 
 $e = static fn(string $valor): string => htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
 
+<<<<<<< HEAD
+=======
 // La cuota de interés se recalcula siempre sobre el SALDO de capital actual
 // (no sobre el monto original), tal como confirmaste: cada abono a capital
 // baja el interés del siguiente cobro.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $calcularCuota = static fn(float $saldo, float $tasa): float => round($saldo / 1000 * $tasa, 2);
 ?>
 

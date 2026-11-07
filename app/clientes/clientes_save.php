@@ -3,6 +3,30 @@
 declare(strict_types=1);
 
 session_start();
+<<<<<<< HEAD
+require_once __DIR__ . '/../db/db.php';
+require_once __DIR__ . '/Cliente.php';
+require_once __DIR__ . '/ClienteRepository.php';
+require_once __DIR__ . '/FotografiaUploader.php';
+require_once __DIR__ . '/ValidationException.php';
+
+header('Content-Type: application/json; charset=utf-8');
+
+function responder(array $payload, int $httpCode = 200): never
+{
+    global $conn;
+
+    http_response_code($httpCode);
+    echo json_encode($payload, JSON_UNESCAPED_UNICODE);
+
+    // exit no ejecuta bloques finally, así que cerramos la conexión aquí
+    if (isset($conn) && $conn instanceof mysqli) {
+        $conn->close();
+    }
+    exit;
+}
+
+=======
 require __DIR__ . '/../db/db.php';
 
 header('Content-Type: application/json; charset=utf-8');
@@ -23,12 +47,34 @@ function responder(array $payload, int $httpCode = 200): never
 
 // mysqli lanza excepciones en vez de que tengamos que chequear cada
 // resultado manualmente (comportamiento por defecto desde PHP 8.1).
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 if (!in_array($_SESSION['rol'] ?? '', ['Administrador', 'Supervisor'], true)) {
     responder(['status' => 'error', 'message' => 'Sin permisos'], 403);
 }
 
+<<<<<<< HEAD
+try {
+    $cliente = Cliente::fromArray($_POST);
+
+    if (isset($_FILES['foto'])) {
+        $uploader = new FotografiaUploader(__DIR__ . '/uploads');
+        $cliente->fotografia = $uploader->subir($_FILES['foto']);
+    }
+} catch (ValidationException $e) {
+    responder(['status' => 'error', 'message' => $e->getMessage(), 'campo' => $e->getCampo()], 400);
+} catch (\RuntimeException $e) {
+    responder(['status' => 'error', 'message' => $e->getMessage()], 500);
+}
+
+$repositorio = new ClienteRepository($conn);
+
+try {
+    $repositorio->insertar($cliente);
+    responder(['status' => 'success']);
+} catch (mysqli_sql_exception $e) {
+=======
 // 1. Validar y sanear campos requeridos
 $camposRequeridos = [
     'cedula', 'nombre', 'apellido', 'direccion',
@@ -136,10 +182,16 @@ try {
     responder(['status' => 'success']);
 } catch (mysqli_sql_exception $e) {
     // Cédula duplicada u otra violación de restricción única
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     if ($e->getCode() === 1062) {
         responder(['status' => 'error', 'message' => 'Ya existe un cliente con esa cédula', 'campo' => 'cedula'], 409);
     }
 
+<<<<<<< HEAD
+    error_log('Error al guardar cliente: ' . $e->getMessage());
+    responder(['status' => 'error', 'message' => 'Error interno al guardar el cliente'], 500);
+}
+=======
     // No exponemos $e->getMessage() al cliente: podría revelar detalles
     // internos del esquema de la BD. Se registra en el log del servidor.
     error_log('Error al guardar cliente: ' . $e->getMessage());
@@ -147,3 +199,4 @@ try {
 } finally {
     $conn->close();
 }
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608

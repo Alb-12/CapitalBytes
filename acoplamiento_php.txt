@@ -1,0 +1,145 @@
+./app/caja/caja.php:include(__DIR__ . '/../db/db.php');
+./app/caja/caja_arqueo.php:include(__DIR__ . '/../db/db.php');
+./app/caja/caja_save.php:include(__DIR__ . '/../db/db.php');
+./app/clientes/actualizar.php:require __DIR__ . '/../db/db.php';
+./app/clientes/actualizar.php:require __DIR__ . '/clases/Cliente.php';
+./app/clientes/actualizar.php:require __DIR__ . '/clases/ClienteRepository.php';
+./app/clientes/actualizar.php:require __DIR__ . '/clases/ValidationException.php';
+./app/clientes/cargar_cliente.php:include __DIR__ . '/../db/db.php';
+./app/clientes/cargar_cliente.php:require __DIR__ . '/clases/ClienteRepository.php';
+./app/clientes/clases/Cliente.php:require_once __DIR__ . '/ValidationException.php';
+./app/clientes/clases/ClienteRepository.php:require_once __DIR__ . '/Cliente.php';
+./app/clientes/clases/FotografiaUploader.php:require_once __DIR__ . '/ValidationException.php';
+./app/clientes/clientes.php:require __DIR__ . '/../db/db.php';
+./app/clientes/clientes.php:require __DIR__ . '/clases/ClienteRepository.php';
+./app/clientes/clientes.php:                                    placeholder="Cédula (sin guiones)" required>
+./app/clientes/clientes.php:                                    placeholder="Teléfono" required>
+./app/clientes/clientes.php:                                    placeholder="Nombre" required>
+./app/clientes/clientes.php:                                    placeholder="Apellido" required>
+./app/clientes/clientes.php:                                    placeholder="Dirección" required>
+./app/clientes/clientes.php:                                    placeholder="Correo" required>
+./app/clientes/clientes.php:                                    placeholder="Cédula del garante (sin guiones)" required>
+./app/clientes/clientes.php:                                    placeholder="Teléfono del garante" required>
+./app/clientes/clientes.php:                                    placeholder="Nombre del garante" required>
+./app/clientes/clientes_delete.php:require __DIR__ . '/../db/db.php';
+./app/clientes/clientes_delete.php:require __DIR__ . '/clases/ClienteRepository.php';
+./app/clientes/clientes_save.php:require __DIR__ . '/../db/db.php';
+./app/clientes/clientes_save.php:require __DIR__ . '/clases/Cliente.php';
+./app/clientes/clientes_save.php:require __DIR__ . '/clases/ClienteRepository.php';
+./app/clientes/clientes_save.php:require __DIR__ . '/clases/FotografiaUploader.php';
+./app/clientes/clientes_save.php:require __DIR__ . '/clases/ValidationException.php';
+./app/clientes/editar.php:include __DIR__ . '/../db/db.php';
+./app/clientes/editar.php:require __DIR__ . '/clases/ClienteRepository.php';
+./app/dashboard.php:                include __DIR__ . "/$modulo/$modulo.php";
+./app/install.php:        include $rutaDbPhp;
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php: * any requirement for additional modules.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * The path to the directory containing the font metrics should be included
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * note that this includes the objects array, so these can be large.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * @var array All the chars that will be required in the font subsets
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:                // obsolete, the items are required for printing to some postscript printers
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:                // and add the action object which is going to be required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * an image object, will be an XObject in the document, includes description and data
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:                // figure out the additional parameters required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * require write access to the directory to do it... it is MUCH faster to have these serialized
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:                            break; // don't include them as they are not used yet
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * if the font is not loaded then load it and make the required object
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * at the front if required.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:     * this object will not appear until it is included within a page.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:            throw new \Exception("The PHP GD extension is required, but is not installed.");
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:            throw new \Exception("The PHP GD extension is required, but is not installed.");
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:        // the values for style, and the required parameters are:
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/lib/Cpdf.php:                // these font families will be used to enable bold and italic markers to be included
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/GD.php:        // Convert the style array if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/GD.php:        // Convert the style array if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/GD.php:        // Convert the style array if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/GD.php:        // Convert the style array if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/GD.php:        // Convert the style array if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/PDFLib.php:        // Place the object on this page if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Adapter/PDFLib.php:            // Place the object on this page if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Css/Style.php: * It includes methods to resolve colors and lengths, as well as getters &
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Css/Style.php:     * can also include a fallback value.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Css/Style.php:     * Parse a property value with 1 to 4 components into 4 values, as required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Css/Stylesheet.php:     * not support user stylesheets, and user agent stylesheets can not include
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Css/Stylesheet.php:                    // Read the attribute value, if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FontMetrics.php:            $cacheDataClosure = require $legacyCacheFile;
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameDecorator/Image.php:     * @param DOMPDF $dompdf the document's dompdf object (required to resolve relative & remote urls)
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameDecorator/Page.php:     * Check if a forced page break is required before $frame.  This uses the
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameReflower/Block.php:            throw new Exception("Box property calculation requires containing block width");
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameReflower/Block.php:        // Collapse margins if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameReflower/Table.php:                // This works because $used_width includes the min-width of each
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameReflower/Table.php:        // Collapse vertical margins, if required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/FrameReflower/Text.php:            // No split required
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Helpers.php:        // File-protocol URLs may require additional processing (e.g. for URLs with a relative path)
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Helpers.php:     * set, a fallback filename will be included for clients not supporting the
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Helpers.php:            throw new Exception("dec2roman() requires a numeric argument.");
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Helpers.php:            throw new Exception("dec2base26() requires a numeric argument.");
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Helpers.php:            trigger_error("The PHP GD extension is required, but is not installed.", E_ERROR);
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Image/Cache.php: * remote images if required.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Options.php:     * The temporary directory is required to download remote images and when
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Options.php:     * images and CSS files as required.
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Positioner/ListBullet.php:        // This includes the marker indentation
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Renderer/AbstractRenderer.php:            throw new \Exception("The PHP GD extension is required, but is not installed.");
+./app/libs/Dompdf 3.1.5 source code/dompdf-dompdf-f11ead2/src/Renderer/AbstractRenderer.php:        // same directory, included in the document as regular image
+./app/login/login.php:            <input type="text" name="nombre_usuario" placeholder="usuario" required autofocus>
+./app/login/login.php:            <input type="password" name="contrasena" placeholder="contraseña" required>
+./app/login/login_proceso.php:include('../db/db.php');
+./app/pagos/pagos.php:include(__DIR__ . '/../db/db.php');
+./app/pagos/pagos.php:include(__DIR__ . '/../db/mora_automatica.php');
+./app/pagos/pagos_save.php:include(__DIR__ . '/../db/db.php');
+./app/pagos/pagos_save.php:        include __DIR__ . '/../caja/caja_registro_automatico.php';
+./app/pagos/whatsapp_enviar.php:include(__DIR__ . '/../db/db.php');
+./app/prestamo/prestamo.php:require __DIR__ . '/../db/db.php';
+./app/prestamo/prestamo.php:require __DIR__ . '/../db/mora_automatica.php';
+./app/prestamo/prestamo_actualizar.php:require __DIR__ . '/../db/db.php';
+./app/prestamo/prestamo_eliminar.php:require __DIR__ . '/../db/db.php';
+./app/prestamo/prestamo_save.php:include __DIR__ . '/../db/db.php';
+./app/redito/redito.php:include(__DIR__ . '/../db/db.php');
+./app/redito/redito_cancelar.php:include(__DIR__ . '/../db/db.php');
+./app/redito/redito_pago.php:include(__DIR__ . '/../db/db.php');
+./app/redito/redito_save.php:include(__DIR__ . '/../db/db.php');
+./app/reportes/reportes.php:include(__DIR__ . '/../db/db.php');
+./app/reportes/reporte_datos.php:include(__DIR__ . '/../db/db.php');
+./app/reportes/reporte_generar.php:include(__DIR__ . '/../db/db.php');
+./app/reportes/reporte_generar.php:require __DIR__ . '/helper.php';
+./app/respaldo/cifrado_helper.php:require_once __DIR__ . '/google_config.php';
+./app/respaldo/config_save.php:include(__DIR__ . '/../db/db.php');
+./app/respaldo/google_callback.php:require __DIR__ . '/google_config.php';
+./app/respaldo/google_callback.php:require __DIR__ . '/cifrado_helper.php';
+./app/respaldo/google_callback.php:require __DIR__ . '/../db/db.php';
+./app/respaldo/google_conectar.php:require __DIR__ . '/google_config.php';
+./app/respaldo/google_desconectar.php:include(__DIR__ . '/../db/db.php');
+./app/respaldo/helper.php:    require_once __DIR__ . '/google_config.php';
+./app/respaldo/helper.php:    require_once __DIR__ . '/cifrado_helper.php';
+./app/respaldo/onedrive_callback.php:require __DIR__ . '/onedrive_config.php';
+./app/respaldo/onedrive_callback.php:require __DIR__ . '/cifrado_helper.php';
+./app/respaldo/onedrive_callback.php:require __DIR__ . '/../db/db.php';
+./app/respaldo/onedrive_conectar.php:require __DIR__ . '/onedrive_config.php';
+./app/respaldo/onedrive_desconectar.php:include(__DIR__ . '/../db/db.php');
+./app/respaldo/respaldo.php:include(__DIR__ . '/../db/db.php');
+./app/respaldo/respaldo_cron.php:require __DIR__ . '/../db/db.php';
+./app/respaldo/respaldo_cron.php:require __DIR__ . '/backup_helper.php';
+./app/respaldo/respaldo_generar.php:include(__DIR__ . '/../db/db.php');
+./app/respaldo/respaldo_generar.php:require __DIR__ . '/helper.php';
+./app/usuarios/clientes/actualizar.php:require __DIR__ . '/../db/db.php';
+./app/usuarios/clientes/cargar_cliente.php:include __DIR__ . '/../db/db.php';
+./app/usuarios/clientes/clientes.php:require __DIR__ . '/../db/db.php';
+./app/usuarios/clientes/clientes.php:                                    placeholder="Cédula (sin guiones)" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Teléfono" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Nombre" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Apellido" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Dirección" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Correo" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Cédula del garante (sin guiones)" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Teléfono del garante" required>
+./app/usuarios/clientes/clientes.php:                                    placeholder="Nombre del garante" required>
+./app/usuarios/clientes/clientes_delete.php:require __DIR__ . '/../db/db.php';
+./app/usuarios/clientes/clientes_save.php:require __DIR__ . '/../db/db.php';
+./app/usuarios/clientes/editar.php:include __DIR__ . '/../db/db.php';
+./app/usuarios/usuarios.php:include(__DIR__ . '/../db/db.php');
+./app/usuarios/usuario_actualizar.php:include(__DIR__ . '/../db/db.php');
+./app/usuarios/usuario_actualizar.php:require __DIR__ . '/administradores_helper.php';
+./app/usuarios/usuario_desbloquear.php:include(__DIR__ . '/../db/db.php');
+./app/usuarios/usuario_eliminar.php:include(__DIR__ . '/../db/db.php');
+./app/usuarios/usuario_eliminar.php:require __DIR__ . '/administradores_helper.php';
+./app/usuarios/usuario_save.php:include(__DIR__ . '/../db/db.php');
+./app/usuarios/usuario_save.php:require __DIR__ . '/administradores_helper.php';

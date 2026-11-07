@@ -34,11 +34,15 @@ try {
 } catch (Throwable $e) {
     error_log('Error al generar respaldo manual: ' . $e->getMessage());
 
+<<<<<<< HEAD
+      $esLocalhost = str_contains($_SERVER['HTTP_HOST'] ?? '', 'localhost');
+=======
     // Mientras estamos en localhost, mostramos el error técnico real en
     // vez de un mensaje genérico, para no tener que ir a buscar el log
     // del servidor. ⚠️ QUITAR esta condición antes de pasar a producción
     // (o simplemente que dependa de que el host YA NO sea localhost).
     $esLocalhost = str_contains($_SERVER['HTTP_HOST'] ?? '', 'localhost');
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     $mensaje = $esLocalhost
         ? 'Error interno: ' . $e->getMessage() . ' (archivo: ' . $e->getFile() . ':' . $e->getLine() . ')'
         : 'Error interno al generar el respaldo';

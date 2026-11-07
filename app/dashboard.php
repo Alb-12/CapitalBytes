@@ -1,17 +1,24 @@
 <?php
 session_start();
+<<<<<<< HEAD
+
+=======
 define('BASE_URL', '/SistemaPrestamo/');
 
 // 1. Proteger el dashboard — redirigir si no hay sesión activa
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 if (!isset($_SESSION['usuario'])) {
     header('Location: ../login/login.php');
     exit;
 }
 
+<<<<<<< HEAD
+=======
 // 2. Matriz de permisos por rol — el único lugar donde se define qué
 // puede ver cada rol. Si agregas un módulo nuevo, solo tienes que
 // agregarlo aquí (y a $permitidos) para que el menú y el acceso directo
 // por URL respeten el permiso automáticamente.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $permisosPorModulo = [
     'clientes' => ['Administrador', 'Supervisor'],
     'prestamo' => ['Administrador', 'Supervisor', 'Cobrador'],
@@ -27,25 +34,37 @@ $rolActual  = $_SESSION['rol'] ?? '';
 $permitidos = array_keys($permisosPorModulo);
 $modulo     = $_GET['mod'] ?? '';
 
+<<<<<<< HEAD
+
+=======
 // Módulos que el rol actual sí puede ver (para el menú y para el fallback).
 // 'redito' se excluye a propósito: no es una página de aterrizaje por sí
 // sola, solo se llega ahí desde el botón dentro de Préstamos.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 $modulosVisibles = array_keys(array_filter(
     $permisosPorModulo,
     fn ($roles, $mod) => $mod !== 'redito' && in_array($rolActual, $roles, true),
     ARRAY_FILTER_USE_BOTH
 ));
 
+<<<<<<< HEAD
+
+=======
 // Si el módulo pedido no existe, o el rol actual no tiene permiso para
 // verlo, cae al primer módulo que SÍ le esté permitido a ese rol (en vez
 // de siempre "clientes", que un Cobrador ni siquiera puede ver).
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 if (!in_array($modulo, $permitidos, true) || !in_array($rolActual, $permisosPorModulo[$modulo] ?? [], true)) {
     $modulo = $modulosVisibles[0] ?? null;
 }
 
 if ($modulo === null) {
+<<<<<<< HEAD
+  
+=======
     // Ningún módulo permitido para este rol — no debería pasar con los 3
     // roles actuales, pero por si acaso se crea un rol nuevo sin permisos.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     exit('Tu usuario no tiene acceso a ningún módulo. Contacta al administrador.');
 }
 
@@ -74,6 +93,9 @@ $etiquetasModulo = [
           integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
           crossorigin="anonymous">
 
+<<<<<<< HEAD
+  
+=======
     <!-- ═══════════════════════════════════════════════════════════════
          CSS del menú hamburguesa, puesto DIRECTO aquí (no en db/style.css)
          a propósito: usa selectores por #id, que tienen más prioridad que
@@ -81,6 +103,7 @@ $etiquetasModulo = [
          que esta parte SIEMPRE funciona sin importar el estado de ese
          archivo. En escritorio no cambia nada del diseño original.
          ═══════════════════════════════════════════════════════════════ -->
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     <style>
         #menuToggle {
             display: none;
@@ -101,10 +124,13 @@ $etiquetasModulo = [
                 margin: 0;
             }
 
+<<<<<<< HEAD
+=======
             /* El menú (solo la lista de enlaces) se oculta por defecto en
                móvil, y se muestra al agregarle la clase .abierto al <nav>
                con el botón hamburguesa. El encabezado con el botón sigue
                siempre visible. */
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
             #appNav ul {
                 display: none;
             }
@@ -166,19 +192,38 @@ $etiquetasModulo = [
         this.setAttribute('aria-expanded', abierto ? 'true' : 'false');
         this.textContent = abierto ? '✕' : '☰';
     });
+<<<<<<< HEAD
+
+    document.addEventListener('hide.bs.modal', function (evento) {
+        if (document.activeElement && evento.target.contains(document.activeElement)) {
+            document.activeElement.blur();
+        }
+    });
+</script>
+
+
+=======
 </script>
 
 <!-- Bootstrap JS 5.3.8 (antes de common.js, que lo usa para el modal de clientes) -->
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
+<<<<<<< HEAD
+<script src="common.js" defer></script>
+<?php
+$rutaFisica = __DIR__ . "/$modulo/$modulo.js";
+$rutaWeb    = "$modulo/$modulo.js";
+=======
 <!-- JS: common.js SIEMPRE primero (todas las páginas dependen de sus helpers:
      apiRequest, marcarCampoInvalido, etc.), luego el JS específico del módulo -->
 <script src="<?= BASE_URL ?>common.js" defer></script>
 <?php
 $rutaFisica = __DIR__ . "/$modulo/$modulo.js";
 $rutaWeb    = BASE_URL . "$modulo/$modulo.js";
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 if (file_exists($rutaFisica)) {
     echo '<script src="' . htmlspecialchars($rutaWeb, ENT_QUOTES, 'UTF-8') . '" defer></script>';

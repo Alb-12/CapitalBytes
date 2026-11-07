@@ -1,0 +1,36 @@
+Date : 2026-09-05 10:46:51
+Directory : c:\xampp\htdocs\SistemaPrestamo\app\pagos
+Total : 8 files,  420 codes, 6 comments, 61 blanks, all 487 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |          6 |        242 |        -11 |         38 |        269 |
+| JavaScript |          2 |        178 |         17 |         23 |        218 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                             |          8 |        420 |          6 |         61 |        487 |
+| . (Files)                                                     |          4 |        605 |         23 |        100 |        728 |
+| ..                                                            |          4 |       -185 |        -17 |        -39 |       -241 |
+| ..\login                                                      |          4 |       -185 |        -17 |        -39 |       -241 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                      | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\xampp\htdocs\SistemaPrestamo\app\login\login.js            | JavaScript |        -55 |          0 |        -13 |        -68 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\login.php           | PHP        |        -35 |         -1 |         -4 |        -40 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\login_proceso.php   | PHP        |        -89 |        -16 |        -22 |       -127 |
+| c:\xampp\htdocs\SistemaPrestamo\app\login\logout.php          | PHP        |         -6 |          0 |          0 |         -6 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos.js            | JavaScript |        233 |         17 |         36 |        286 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos.php           | PHP        |        177 |          4 |         25 |        206 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos_save.php      | PHP        |         95 |          2 |         17 |        114 |
+| c:\xampp\htdocs\SistemaPrestamo\app\pagos\whatsapp_enviar.php | PHP        |        100 |          0 |         22 |        122 |
+| Total                                                         |            |        420 |          6 |         61 |        487 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+

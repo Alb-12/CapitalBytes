@@ -15,7 +15,15 @@ $historial = [];
 
 try {
     aplicarMoraAutomatica($conn);
+<<<<<<< HEAD
+} catch (Throwable $e) {
+    error_log('Error en aplicarMoraAutomatica(): ' . $e->getMessage());
+}
 
+try {
+=======
+
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     // Cargar préstamos activos con datos del cliente
     $sql = "SELECT p.id_prestamo, p.cuota_monto, p.saldo_pendiente,
                    p.mora_porcentaje, p.tasa_interes, p.tipo_interes,

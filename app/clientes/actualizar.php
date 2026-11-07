@@ -3,20 +3,74 @@
 declare(strict_types=1);
 
 session_start();
+<<<<<<< HEAD
+require_once __DIR__ . '/../db/db.php';
+require_once __DIR__ . '/Cliente.php';
+require_once __DIR__ . '/ClienteRepository.php';
+require_once __DIR__ . '/ValidationException.php';
+=======
 require __DIR__ . '/../db/db.php';
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 header('Content-Type: application/json; charset=utf-8');
 
 function responder(array $payload, int $httpCode = 200): never
 {
+<<<<<<< HEAD
+    global $conn;
+
     http_response_code($httpCode);
     echo json_encode($payload, JSON_UNESCAPED_UNICODE);
+
+    // exit no ejecuta bloques finally, así que cerramos la conexión aquí
+    if (isset($conn) && $conn instanceof mysqli) {
+        $conn->close();
+    }
+=======
+    http_response_code($httpCode);
+    echo json_encode($payload, JSON_UNESCAPED_UNICODE);
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
     exit;
 }
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 if (!in_array($_SESSION['rol'] ?? '', ['Administrador', 'Supervisor'], true)) {
+<<<<<<< HEAD
+    responder(['status' => 'error', 'message' => 'Sin permisos'], 403);
+}
+
+$datosRecibidos = json_decode(file_get_contents('php://input'), true);
+
+if (!is_array($datosRecibidos)) {
+    responder(['status' => 'error', 'message' => 'No se recibieron datos válidos'], 400);
+}
+
+try {
+    $cliente = Cliente::fromArray($datosRecibidos, requiereId: true);
+} catch (ValidationException $e) {
+    responder(['status' => 'error', 'message' => $e->getMessage(), 'campo' => $e->getCampo()], 400);
+}
+
+$repositorio = new ClienteRepository($conn);
+
+try {
+    $filasAfectadas = $repositorio->actualizar($cliente);
+
+    if ($filasAfectadas === 0 && !$repositorio->existeId((int) $cliente->id)) {
+        responder(['status' => 'error', 'message' => 'Cliente no encontrado'], 404);
+    }
+
+    responder(['status' => 'success']);
+} catch (mysqli_sql_exception $e) {
+    if ($e->getCode() === 1062) {
+        responder(['status' => 'error', 'message' => 'Ya existe otro cliente con esa cédula', 'campo' => 'cedula'], 409);
+    }
+
+    error_log('Error al actualizar cliente: ' . $e->getMessage());
+    responder(['status' => 'error', 'message' => 'Error interno al actualizar el cliente'], 500);
+}
+=======
     responder(['status' => 'error', 'mensaje' => 'Sin permisos'], 403);
 }
 
@@ -120,3 +174,4 @@ try {
 } finally {
     $conn->close();
 }
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608

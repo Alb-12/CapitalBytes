@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 include __DIR__ . '/../db/db.php';
+<<<<<<< HEAD
+require __DIR__ . '/ClienteRepository.php';
+=======
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
@@ -14,11 +18,16 @@ if ($cedula === '' || !ctype_digit($cedula)) {
 }
 
 try {
+<<<<<<< HEAD
+    $repositorio = new ClienteRepository($conn);
+    $cliente     = $repositorio->buscarPorCedula($cedula);
+=======
     $stmt = $conn->prepare('SELECT * FROM clientes WHERE cedula = ?');
     $stmt->bind_param('s', $cedula);
     $stmt->execute();
     $cliente = $stmt->get_result()->fetch_assoc();
     $stmt->close();
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 } catch (mysqli_sql_exception $e) {
     error_log('Error al cargar cliente para edición: ' . $e->getMessage());
     echo '<p>Ocurrió un error al cargar los datos del cliente.</p>';
@@ -32,11 +41,17 @@ if ($cliente === null) {
     exit;
 }
 
+<<<<<<< HEAD
+// Helper local 
+$e = static fn(string $valor): string => htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
+?>
+=======
 // Helper local para no repetir htmlspecialchars(..., ENT_QUOTES, 'UTF-8') diez veces
 $e = static fn(string $valor): string => htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
 ?>
 <!-- Sin DOCTYPE ni html/head/body porque este archivo
      se carga DENTRO de otro modal con fetch() -->
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 <div id="modalEditar">
 

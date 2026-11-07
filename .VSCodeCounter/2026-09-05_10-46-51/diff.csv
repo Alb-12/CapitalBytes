@@ -1,0 +1,10 @@
+"filename", "language", "PHP", "JavaScript", "comment", "blank", "total"
+"c:\xampp\htdocs\SistemaPrestamo\app\login\login.js", "JavaScript", 0, -55, 0, -13, -68
+"c:\xampp\htdocs\SistemaPrestamo\app\login\login.php", "PHP", -35, 0, -1, -4, -40
+"c:\xampp\htdocs\SistemaPrestamo\app\login\login_proceso.php", "PHP", -89, 0, -16, -22, -127
+"c:\xampp\htdocs\SistemaPrestamo\app\login\logout.php", "PHP", -6, 0, 0, 0, -6
+"c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos.js", "JavaScript", 0, 233, 17, 36, 286
+"c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos.php", "PHP", 177, 0, 4, 25, 206
+"c:\xampp\htdocs\SistemaPrestamo\app\pagos\pagos_save.php", "PHP", 95, 0, 2, 17, 114
+"c:\xampp\htdocs\SistemaPrestamo\app\pagos\whatsapp_enviar.php", "PHP", 100, 0, 0, 22, 122
+"Total", "-", 242, 178, 6, 61, 487

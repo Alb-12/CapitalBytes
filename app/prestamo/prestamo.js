@@ -1,7 +1,10 @@
+<<<<<<< HEAD
+=======
 // prestamo.js — lógica del módulo de Préstamos.
 // Autocontenido: como common.js solo se carga en el módulo de clientes,
 // este archivo incluye sus propias copias de los helpers de validación
 // (marcarCampoInvalido, apiRequest, etc.) en vez de depender de common.js.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
 // ─── Helpers propios de este módulo ───────────────────────────────────
 function marcarCampoInvalido(id, mensaje) {
@@ -85,6 +88,15 @@ function abrirModalPrestamo() {
     document.getElementById('p_mora_porcentaje').value = '';
     document.getElementById('p_cuota_monto').value = '';
 
+<<<<<<< HEAD
+      document.getElementById('p_fecha_inicio').value = new Date().toISOString().split('T')[0];
+    calcularFechaFin();
+
+    bootstrap.Modal.getOrCreateInstance(document.getElementById('modalPrestamo')).show();
+}
+function cerrarModalPrestamo() {
+    bootstrap.Modal.getInstance(document.getElementById('modalPrestamo'))?.hide();
+=======
     // Fecha de inicio: hoy por defecto (el usuario puede cambiarla si el
     // préstamo arranca en otra fecha).
     document.getElementById('p_fecha_inicio').value = new Date().toISOString().split('T')[0];
@@ -94,6 +106,7 @@ function abrirModalPrestamo() {
 }
 function cerrarModalPrestamo() {
     document.getElementById('modalPrestamo').style.display = 'none';
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 }
 function cerrarModalEditarPrestamo() {
     document.getElementById('modalEditarPrestamo').style.display = 'none';
@@ -109,10 +122,14 @@ function buscarPrestamo() {
 
 // ─── Calcular cuota automáticamente ──────────────────────────────────
 function calcularCuota() {
+<<<<<<< HEAD
+     calcularFechaFin();
+=======
     // La fecha fin depende solo de fecha_inicio + plazo + modalidad, no de
     // monto/tasa — la calculamos primero y de forma independiente, para que
     // se actualice apenas cambies la modalidad aunque el monto aún esté vacío.
     calcularFechaFin();
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
     const monto = parseFloat(document.getElementById('p_monto').value) || 0;
     const tasa  = parseFloat(document.getElementById('p_tasa_interes').value) || 0;
@@ -128,20 +145,29 @@ function calcularCuota() {
     const tasaDecimal = tasa / 100;
 
     if (tipo === 'Simple') {
+<<<<<<< HEAD
+        const totalAPagar = monto + monto * tasaDecimal * plazo;
+        cuota = totalAPagar / plazo;
+    } else {
+=======
         const totalAPagar = monto * tasaDecimal * plazo;
         cuota = totalAPagar / plazo;
     } 
     if (tipo==='Compuesto') {
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         cuota = tasaDecimal === 0
             ? monto / plazo
             : (monto * (tasaDecimal * Math.pow(1 + tasaDecimal, plazo)))
                 / (Math.pow(1 + tasaDecimal, plazo) - 1);
     }
+<<<<<<< HEAD
+=======
     else{
       const totalApagar = tasaDecimal * monto;
       cuota = totalApagar + monto;
 
     }
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 
     document.getElementById('p_cuota_monto').value = cuota.toFixed(2);
 }

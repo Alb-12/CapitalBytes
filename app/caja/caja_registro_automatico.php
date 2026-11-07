@@ -3,8 +3,11 @@
 declare(strict_types=1);
 
 /**
+<<<<<<< HEAD
+=======
  * Registra automáticamente en caja cuando se recibe un pago.
  * Llamar desde pago_save.php después de insertar el pago.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
  *
  * @param mysqli $conn
  * @param int    $idPago

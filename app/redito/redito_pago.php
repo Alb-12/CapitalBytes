@@ -59,11 +59,15 @@ try {
 
     $saldoActual = (float) $prestamo['saldo_capital'];
 
+<<<<<<< HEAD
+      if ($tipoPago === 'Abono_Capital') {
+=======
     // Un pago de "solo interés" NO reduce el saldo de capital — el rédito
     // se sigue cobrando sobre el mismo saldo en el siguiente período.
     // Un "abono a capital" sí lo reduce, y por eso el siguiente cobro de
     // interés será menor (tal como confirmaste).
     if ($tipoPago === 'Abono_Capital') {
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
         if ($monto > $saldoActual) {
             responder(['status' => 'error', 'mensaje' => 'El abono no puede ser mayor al saldo de capital pendiente ($' . number_format($saldoActual, 2) . ')', 'campo' => 'monto'], 400);
         }

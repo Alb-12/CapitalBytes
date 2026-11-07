@@ -6,7 +6,10 @@ include(__DIR__ . '/../db/db.php');
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
+<<<<<<< HEAD
+=======
 // Reportes financieros: solo Administrador y Supervisor.
+>>>>>>> 4a61193eab241d7dfebf3dae54399c65e6f95608
 if (!in_array($_SESSION['rol'] ?? '', ['Administrador', 'Supervisor'], true)) {
     echo '<p class="text-muted">No tienes permiso para acceder a este módulo.</p>';
     return;
