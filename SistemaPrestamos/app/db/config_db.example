@@ -1,0 +1,9 @@
+<?php
+// Copia este archivo como config_db.php (en la carpeta raíz del proyecto, la que contiene app/),
+// escribe tus valores reales y NO lo subas a Git.
+return [
+    'host' => 'localhost',
+    'user' => 'root',
+    'pass' => 'Angel12@#',
+    'db'   => 'db',
+];

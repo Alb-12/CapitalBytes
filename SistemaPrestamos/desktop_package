@@ -1,0 +1,6 @@
+Este archivo le indica a install.php que esta es la versión empaquetada
+para escritorio (PHP + MariaDB portables). Su sola presencia hace que el
+instalador use automáticamente la base de datos local en el puerto 3307,
+sin pedirle esos datos técnicos al cliente final.
+
+No lo borres si quieres conservar ese comportamiento automático.

@@ -1,9 +1,4 @@
-Loancontrol/.git_backup/
-mariadb/
-app/respaldo/google_config.php
-*.sql
-*.pdb
-mariadb/
-app/respaldo/google_config.php
-*.sql
+﻿SistemaPrestamos/**/config_db.php
+SistemaPrestamos/mariadb/
+SistemaPrestamos/app/respaldo/google_config.php
 *.pdb
