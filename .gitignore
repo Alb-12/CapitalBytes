@@ -2,3 +2,5 @@
 SistemaPrestamos/mariadb/
 SistemaPrestamos/app/respaldo/google_config.php
 *.pdb
+
+*.sql
